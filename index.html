@@ -3,7 +3,20 @@
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <!--Import Animate.css-->
+    <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen,projection"/>
+    <!--<link rel="stylesheet" href="css/vendor.css">-->
+    <!--<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>-->
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+   <!-- <script type="text/javascript" src="js/anime.js"></script>-->
+
+
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -12,72 +25,98 @@
       .card{
         border: 0px !important;
       }
+/*
+    .js .animate-this, .js .animate-intro {
+        opacity: 0;
+      }
 
+      .oldie .animate-this,
+      .oldie .animate-intro
+      .no-cssanimations .animate-this,
+      .no-cssanimations .animate-intro {
+        opacity: 1;
+      }*/
     </style>
   </head>
-  <body class=" grey darken-3 ">
+
+  <body>
+ <!-- <style type="text/css">
+
+  	.navbar-scroll{
+  		background-color: black;
+  		 transition: all 3s ease;
+  		 opacity: 1;
+  	}
+  </style>-->
+
     <!--Navigation-->
-    <div class="navbar-fixed">
-    <nav class="blue-grey darken-4">
-     <div class="nav-wrapper">
+    
+    <div class="navbar-fixed" id="navv">
+    <nav id="navbar">
+     <div class="nav-wrapper" \>
        <a href="#!" class="brand-logo">Skylark</a>
-       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">Menu</i></a>
        <ul class="right hide-on-med-and-down">
-         <li><a href="#">Home</a></li>
-         <li><a href="#">About US</a></li>
-         <li><a href="#">What We Do</a></li>
-         <li><a href="#">Competitions</a></li>
+         <li><a href="#Home" class="scroll waves-effect waves-light">Home</a></li>
+         <li><a href="#About" class="scroll waves-effect waves-light">About US</a></li>
+         <li><a href="#WWD" class="scroll waves-effect waves-light">What We Do</a></li>
+         <li><a href="#Comp" class="scroll waves-effect waves-light">Competitions</a></li>
          <!-- <li><a href="#">Results</a></li> -->
-         <li><a href="#">Team</a></li>
-         <li><a href="#">Sponsors</a></li>
-         <li><a href="#">Contact Us</a></li>
+         <li><a href="#Team" class="scroll waves-effect waves-light">Team</a></li>
+         <li><a href="#Sponsors" class="scroll waves-effect waves-light">Sponsors</a></li>
+         <li><a href="#Contact" class="scroll waves-effect waves-light">Contact Us</a></li>
        </ul>
        <ul class="side-nav" id="mobile-demo">
-         <li><a href="#">Home</a></li>
-         <li><a href="#">About US</a></li>
-         <li><a href="#">What We Do</a></li>
-         <li><a href="#">Competitions</a></li>
+         <li><a href="#Home" class="scroll waves-effect waves-light">Home</a></li>
+         <li><a href="#About" class="scroll waves-effect waves-light">About US</a></li>
+         <li><a href="#WWD" class="scroll waves-effect waves-light">What We Do</a></li>
+         <li><a href="#Comp" class="scroll waves-effect waves-light">Competitions</a></li>
          <!-- <li><a href="#">Results</a></li> -->
-         <li><a href="#">Team</a></li>
-         <li><a href="#">Sponsors</a></li>
-         <li><a href="#">Contact Us</a></li>
+         <li><a href="#Team" class="scroll waves-effect waves-light">Team</a></li>
+         <li><a href="#Sponsors" class="scroll waves-effect waves-light">Sponsors</a></li>
+         <li><a href="#Contact" class="scroll waves-effect waves-light">Contact Us</a></li>
        </ul>
      </div>
    </nav>
- </div>
+     </div>
    <!-- End Navigation -->
 
    <!-- Start Carousel -->
+   <section id="Home">
+
     <div class="carousel carousel-slider center" data-indicators="true">
-       <div class="carousel-item red white-text" href="#one!">
+       <div class="carousel-item" href="#one!">
          <img src="assets/img/1.jpg">
        </div>
-       <div class="carousel-item amber white-text" href="#two!">
+       <div class="carousel-item" href="#two!">
          <img src="assets/img/2.jpg">
        </div>
-       <div class="carousel-item green white-text" href="#three!">
+       <div class="carousel-item" href="#three!">
          <img src="assets/img/3.jpg">
        </div>
-       <div class="carousel-item blue white-text" href="#four!">
+       <div class="carousel-item" href="#four!">
         <img src="assets/img/4.jpg">
        </div>
      </div>
+    </section>
      <!-- End Carousel -->
 
+     
      <!-- Start About Us -->
+     <!--<section id="About">
      <div class="row">
      <div class="card col s12 m6 l10 offset-l1">
       <div class="card-content">
       <div class="card-tabs">
         <ul class="tabs tabs-fixed-width">
-          <li class="tab"><a href="#about">From The Principal's Desk</a></li>
+          <li class="tab animated bounceIn slow"><a href="#about">From The Principal's Desk</a></li>
         </ul>
       </div>
       <div class="card-content grey lighten-4">
-        <div = class="row">
-          <div id="about" class="col s8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
-          <div class="col s4">
-            <img src="assets/img/speaker.png">
+        <div class="row">
+          <div id="about" class="col s6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+          <div class="col s6">
+            <center><div class="animated fadeIn"><img src="assets/img/speaker.png"></div></center>
           </div>
       </div>
     </div>
@@ -85,17 +124,104 @@
   </div>
 </div>
 <hr>
-    <!-- End About us -->
+</section>-->
+<!-- End About us -->
+
+<!--Trial About Us-->
+<style type="text/css">
+	
+	section.about-w3l h2 {
+	text-align:center;
+	padding:0 0 30px;
+}
+section.about-w3l p {
+	text-align:center;
+	padding-bottom:20px;
+}
+
+
+section.about-w3l {
+	padding:100px 0;
+}
+section.about-w3l h2 {
+	font-size:40px;
+	font-weight:bold;
+	color:#3ba2c1;
+	padding:55px 0 20px;
+	font-family: 'Poiret One', cursive;
+}
+section.about-w3l p {
+	font-size:16px;
+	font-weight:normal;
+	line-height:35px;
+}
+
+/*.animation-element{
+  position: relative;
+  float: left;
+}
+
+.bounce-up{
+  opacity: 0;
+  -moz-transition: all 700ms ease-out;
+  -webkit-transition: all 700ms ease-out;
+  -o-transition: all 700ms ease-out;
+  transition: all 700ms ease-out;
+  -moz-transform: translate3d(0px,200px,0px);
+  -webkit-transform: translate3d(0px,200px,0px);
+  -o-transform: translate(0px,200px);
+  -ms-transform: translate(0px,200px);
+  transform: translate3d(0px,200px,0px);
+  -webkit-backface-visibility : hidden;
+  -moz-backface-visibility : hidden;
+  backface-visibility : hidden;
+}
+
+.bounce-up .in-view{
+  opacity: 1;
+  -moz-transform: translate3d(0px,0px,0px);
+  -webkit-transform: translate3d(0px,0px,0px);
+   -o-transform: translate(0px,0px);
+  -ms-transform: translate(0px,0px);
+  transform: translate3d(0px,0px,0px);
+}*/
+
+
+</style>
+
+
+
+<section class="about-w3l " id="About">
+	<div class="container">
+	<div class="row"><center><h2>About Us</h2></center></div>
+	<div class="row" style="height: 350px;">
+		<div class="col s12 m6 l6">
+			<center><h4>From the Principal's Desk</h4></center>	
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis arcu at metus molestie, ut fermentum metus laoreet. Maecenas lectus felis, posuere ut elementum in, sodales eget leo. Nulla laoreet orci dui, fermentum luctus purus aliquet eu. Phasellus cursus, erat quis ullamcorper efficitur, erat ligula euismod purus, vitae semper ligula sapien id est. In lobortis vulputate ornare.</p>
+		</div>
+		<div class="col s12 m6 l6">
+		    <img src="assets/img/images.jpg" style="height: 300px !important; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+		</div>
+	</div>
+	</div>
+</section>
+
+
+
+
+
+
 
     <!-- what we do -->
+    <section id="WWD" style="background-image: url('assets/img/21.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
     <div class="row">
       <div class = "col s12 m10 l10 offset-l1 offset-m1">
-    <div>What We Do</div>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+    <center><div><b>What We Do</b></div></center>
+    <p class="white-text"><b>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,</b></p>
     <div class="row">
         <div class="col s12 m6 l4 offset-l1">
-          <div class="card transparent z-depth-5">
-            <div class="card-content">
+          <div class="card grey darken-4 z-depth-5">
+            <div class="card-content white-text">
               <span class="card-title center"><i class="medium material-icons">build</i><br><br>DESIGN</span>
               <p>I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively.</p>
@@ -103,8 +229,8 @@
           </div>
         </div>
         <div class="col s12 m6 l4 offset-l2">
-          <div class="card transparent z-depth-5">
-            <div class="card-content">
+          <div class="card grey darken-4 z-depth-5">
+            <div class="card-content white-text">
               <span class="card-title center"><i class="medium material-icons">perm_data_setting</i><br><br>FABRICATE</span>
               <p>I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively.</p>
@@ -114,8 +240,8 @@
       </div>
       <div class="row">
           <div class="col s12 m6 l4 offset-l1">
-            <div class="card transparent z-depth-5">
-              <div class="card-content">
+            <div class="card grey darken-4 z-depth-5">
+              <div class="card-content white-text">
                 <span class="card-title center"><i class="medium material-icons">assessment</i><br><br>Analyze</span>
                 <p>I am a very simple card. I am good at containing small bits of information.
                 I am convenient because I require little markup to use effectively.</p>
@@ -123,8 +249,8 @@
             </div>
           </div>
           <div class="col s12 m6 l4 offset-l2">
-            <div class="card transparent z-depth-5">
-              <div class="card-content">
+            <div class="card grey darken-4 z-depth-5">
+              <div class="card-content white-text">
                 <span class="card-title center"><i class="medium material-icons">flight_takeoff</i><br><br>Flight TEsting</span>
                 <p>I am a very simple card. I am good at containing small bits of information.
                 I am convenient because I require little markup to use effectively.</p>
@@ -134,7 +260,7 @@
         </div>
       </div>
     </div>
-    <hr>
+    </section>
     <!-- End What we do -->
 
     <!-- Competitions -->
@@ -142,7 +268,7 @@
     <!-- End Competitions -->
 
     <!-- Teams -->
-
+    <section id="Team">
     <div class="row">
       <h3><center>  Our Team  </center></h3>
         <div class="col s12 m6 l4 offset-l4">
@@ -196,11 +322,12 @@
                     </div>
                   </div>
                   <hr>
+            </section>
     <!-- End Teams -->
 
     <!-- Sponsors -->
-
-      <h3><center> Sponsors  </center></h3>
+    <section id="Sponsors">
+      <h3><center> Our Sponsors  </center></h3>
     <div class="carousel">
       <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/250/250/nature/1"></a>
       <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/250/250/nature/2"></a>
@@ -208,10 +335,11 @@
       <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/250/250/nature/4"></a>
       <a class="carousel-item" href="#five!"><img src="http://lorempixel.com/250/250/nature/5"></a>
     </div>
-    <hr>
+    </section>
     <!-- End Sponsors -->
 
     <!-- COntact  -->
+    <section id="Contact">
     <div class="row">
         <div class="col s12 m6">
           <div class="card transparent z-depth-5">
@@ -245,6 +373,11 @@
                       <label for="msg">Message</label>
                     </div>
                   </div>
+                  <div class="row">
+                  		<button class="btn waves-effect waves-light right blue-grey darken-3" type="submit" name="action">Submit<i class="material-icons right">send</i>
+  						</button>
+        
+                  </div>
                  </form>
                </div>
 
@@ -255,39 +388,67 @@
               <div class="card transparent z-depth-5">
                 <div class="card-content">
                   <span class="card-title center">Find Us Here</span>
-                  71 Pilgrim Avenue <br>
-                  Chevy Chase, MD 20815 <br>
-                  70 Bowman St. <br>
-                  South Windsor, CT 06074 <br>
+                  <div class="row"><i class="fa fa-map-marker left" style="font-size: 30px;"></i>
+                  <h5>Dwarkadas.J.Sanghvi College of Engineering</h5></div>
+                  <br><br>
+                  <div class="row"><i class="fa fa-phone left" style="font-size: 30px;"></i>
+                  <h5>62434677584</h5></div>
+                  <br><br>
+                  <div class="row">
+                  <i class="material-icons left" style="font-size:30px;">mail</i>
+                  <h5>xyz@gmail.com</h5>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          </section>
     <!-- End Contact -->
+
+    <!--Top Button-->
+    <div class="fixed-action-btn">
+    <a class="btn-floating btn-large waves-effect waves-light blue-grey scroll" href="#Home" >
+      <i class="fa fa-angle-double-up"></i>
+    </a>
+    </div>
+    <!--End Top Button-->
+
 
     <!-- Footer -->
     <footer class="page-footer blue-grey darken-4">
           <div class="container">
             <div class="row">
-              <div class="col l6 s12">
+              <div class="col l5 s12">
                 <h5 class="white-text">Footer Content</h5>
                 <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
               </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+              <div class="col l5 offset-l2 s12">
+                <h5 class="white-text">Follow Us</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+
+                <style type="text/css">
+                	
+                	ul, li{
+                		display: inline;
+                	}
+
+                	i:hover{
+                		color: black;
+                	}
+
+                </style>
+
+                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook-square" style="font-size: 36px; padding-right: 3px;"></i></a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter-square" style="font-size: 36px; padding-right: 3px;"></i></a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-instagram" style="font-size: 36px; padding-right: 3px;"></i></a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-google-plus-square" style="font-size: 36px; padding-right: 3px;"></i></a></li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <center><a class="grey-text text-lighten-4">Made with <i class="fa fa-heart" style="color: red;"></i> by Akshita Lakkad and Vidhi Shah</a></center>
             </div>
           </div>
         </footer>
@@ -299,12 +460,44 @@
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+<!-- Scroll Effect-->
+    <script type="text/javascript">
+    	
+		  $('.scroll').on('click', function(e) {
+		  e.preventDefault();
+		  var section = $(this).attr('href').substr($(this).attr('href').indexOf('#'));
+		  var $section = $(section);
+
+		  $('html, body').animate({
+		    scrollTop: $section.offset().top + 'px'}, 1000);
+		});
+ 	</script>
+<!--End-->
+
+<!--Navbar effect-->
+<script type="text/javascript">
+	$(window).scroll(function() {
+  if ($(this).scrollTop() > 1) {
+    $('#navbar').addClass('black');    
+  }
+  else {
+    $('#navbar').removeClass('black');
+  }
+});
+
+</script>
+<!--End-->
+
     <script type="text/javascript">
       $( document ).ready(function(){
         $(".button-collapse").sideNav();
       });
 
     </script>
+
+<!--Carousel-->
     <script type="text/javascript">
     $(document).ready(function(){
   $('.carousel').carousel();
@@ -333,5 +526,38 @@
       });
 
     </script>
+<!--End Carousel-->
+
+<!--Animation Bounceup-->
+<!--<script type="text/javascript">
+  var $animation_element=$('.animation-element');
+  var $window=$(window);
+
+  function check_in_view(){
+    var win_height=$window.height();
+    var win_top=$window.scrollTop();
+    var win_bot=(win_top+win_height);
+
+    $.each($animation_element,function(){
+      var $element=$(this);
+      var elm_height=$element.outerHeight();
+      var elm_top=$element.offset().top;
+      var elm_bot=(elm_top+elm_height);
+
+      //Check if current container is in viewport or not
+
+      if((elm_bot>=win_top)&&(elm_top<=win_bot)){
+        $element.addClass('in-view');
+      } else{
+        $element.removeClass('in-view');
+      }
+    });
+  }
+
+
+</script>-->
+
+
+
   </body>
 </html>
