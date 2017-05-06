@@ -6,17 +6,16 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
     <!--Import Animate.css-->
     <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen,projection"/>
-    <!--<link rel="stylesheet" href="css/vendor.css">-->
-    <!--<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" media="screen,projection"/>
 
     <!--Icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/plugins.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
    <!-- <script type="text/javascript" src="js/anime.js"></script>-->
-
-
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -25,32 +24,104 @@
       .card{
         border: 0px !important;
       }
-/*
-    .js .animate-this, .js .animate-intro {
-        opacity: 0;
+
+
+      	section.about-w3l h2 {
+      	text-align:center;
+      	padding:0 0 30px;
+      }
+      section.about-w3l p {
+      	text-align:center;
+      	padding-bottom:20px;
       }
 
-      .oldie .animate-this,
-      .oldie .animate-intro
-      .no-cssanimations .animate-this,
-      .no-cssanimations .animate-intro {
-        opacity: 1;
-      }*/
+
+      section.about-w3l {
+      	padding:100px 0;
+      }
+      section.about-w3l h2 {
+      	font-size:40px;
+      	font-weight:bold;
+      	color:#3ba2c1;
+      	padding:55px 0 20px;
+      	font-family: 'Poiret One', cursive;
+      }
+      section.about-w3l p {
+      	font-size:16px;
+      	font-weight:normal;
+      	line-height:35px;
+      }
+      ul, li{
+        display: inline;
+      }
+
+      i:hover{
+        color: black;
+      }
+
+
     </style>
+    <script type="text/javascript">
+          var options = [
+        {selector: '.class', offset: 200, callback: customCallbackFunc },
+        {selector: '.other-class', offset: 200, callback: function() {
+          customCallbackFunc();
+        } },
+      ];
+      Materialize.scrollFire(options);
+
+    </script>
+    <script type="text/javascript">
+        var options = [
+        {selector: '.c1', offset: 50, callback: function(el) {
+          //Materialize.toast("This is About Us!", 1500 );
+           $('.c1').addClass("animated bounceInUp");
+
+        } },
+        {selector: '.c2', offset: 50, callback: function(el) {
+          //Materialize.toast("This is About Us!", 1500 );
+           $('.c2').addClass("animated bounceInUp");
+
+        } },
+        {selector: '.r1', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row1 !", 1500 );
+           $('.cc1').addClass("animated bounceInUp");
+           $('.cc2').addClass("animated bounceInUp");
+
+        } },
+        {selector: '.r2', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+          $('.cc3').addClass("animated bounceInUp");
+          $('.cc4').addClass("animated bounceInUp");
+
+
+        } },
+        {selector: '.rr1', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+          $('.ccc1').addClass("animated bounceInUp");
+
+        } },
+        {selector: '.rr2', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+          $('.ccc2').addClass("animated bounceInUp");
+          $('.ccc2').addClass("animated bounceInUp");
+        } },
+        {selector: '.rr3', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+          $('.ccc3').addClass("animated bounceInUp");
+          $('.ccc3').addClass("animated bounceInUp");
+        } },
+      ];
+      Materialize.scrollFire(options);
+
+    </script>
   </head>
 
   <body>
- <!-- <style type="text/css">
 
-  	.navbar-scroll{
-  		background-color: black;
-  		 transition: all 3s ease;
-  		 opacity: 1;
-  	}
-  </style>-->
 
     <!--Navigation-->
-    
+
     <div class="navbar-fixed" id="navv">
     <nav id="navbar">
      <div class="nav-wrapper" \>
@@ -83,7 +154,6 @@
 
    <!-- Start Carousel -->
    <section id="Home">
-
     <div class="carousel carousel-slider center" data-indicators="true">
        <div class="carousel-item" href="#one!">
          <img src="assets/img/1.jpg">
@@ -101,7 +171,7 @@
     </section>
      <!-- End Carousel -->
 
-     
+
      <!-- Start About Us -->
      <!--<section id="About">
      <div class="row">
@@ -128,89 +198,21 @@
 <!-- End About us -->
 
 <!--Trial About Us-->
-<style type="text/css">
-	
-	section.about-w3l h2 {
-	text-align:center;
-	padding:0 0 30px;
-}
-section.about-w3l p {
-	text-align:center;
-	padding-bottom:20px;
-}
-
-
-section.about-w3l {
-	padding:100px 0;
-}
-section.about-w3l h2 {
-	font-size:40px;
-	font-weight:bold;
-	color:#3ba2c1;
-	padding:55px 0 20px;
-	font-family: 'Poiret One', cursive;
-}
-section.about-w3l p {
-	font-size:16px;
-	font-weight:normal;
-	line-height:35px;
-}
-
-/*.animation-element{
-  position: relative;
-  float: left;
-}
-
-.bounce-up{
-  opacity: 0;
-  -moz-transition: all 700ms ease-out;
-  -webkit-transition: all 700ms ease-out;
-  -o-transition: all 700ms ease-out;
-  transition: all 700ms ease-out;
-  -moz-transform: translate3d(0px,200px,0px);
-  -webkit-transform: translate3d(0px,200px,0px);
-  -o-transform: translate(0px,200px);
-  -ms-transform: translate(0px,200px);
-  transform: translate3d(0px,200px,0px);
-  -webkit-backface-visibility : hidden;
-  -moz-backface-visibility : hidden;
-  backface-visibility : hidden;
-}
-
-.bounce-up .in-view{
-  opacity: 1;
-  -moz-transform: translate3d(0px,0px,0px);
-  -webkit-transform: translate3d(0px,0px,0px);
-   -o-transform: translate(0px,0px);
-  -ms-transform: translate(0px,0px);
-  transform: translate3d(0px,0px,0px);
-}*/
-
-
-</style>
-
-
 
 <section class="about-w3l " id="About">
 	<div class="container">
-	<div class="row"><center><h2>About Us</h2></center></div>
-	<div class="row" style="height: 350px;">
-		<div class="col s12 m6 l6">
-			<center><h4>From the Principal's Desk</h4></center>	
+	<div class="row c1"><center><h2>About Us</h2></center></div>
+	<div class="row" style="height: 350px;" class="">
+		<div class="col s12 m6 l6 c2">
+			<center><h4>From the Principal's Desk</h4></center>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis arcu at metus molestie, ut fermentum metus laoreet. Maecenas lectus felis, posuere ut elementum in, sodales eget leo. Nulla laoreet orci dui, fermentum luctus purus aliquet eu. Phasellus cursus, erat quis ullamcorper efficitur, erat ligula euismod purus, vitae semper ligula sapien id est. In lobortis vulputate ornare.</p>
 		</div>
-		<div class="col s12 m6 l6">
+		<div class="col s12 m6 l6 c2">
 		    <img src="assets/img/images.jpg" style="height: 300px !important; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
 		</div>
 	</div>
 	</div>
 </section>
-
-
-
-
-
-
 
     <!-- what we do -->
     <section id="WWD" style="background-image: url('assets/img/21.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
@@ -218,10 +220,10 @@ section.about-w3l p {
       <div class = "col s12 m10 l10 offset-l1 offset-m1">
     <center><div><b>What We Do</b></div></center>
     <p class="white-text"><b>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,</b></p>
-    <div class="row">
+    <div class="row r1">
         <div class="col s12 m6 l4 offset-l1">
-          <div class="card grey darken-4 z-depth-5">
-            <div class="card-content white-text">
+          <div class="card grey darken-4 z-depth-5 cc1">
+            <div class="card-content white-text ">
               <span class="card-title center"><i class="medium material-icons">build</i><br><br>DESIGN</span>
               <p>I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively.</p>
@@ -229,8 +231,8 @@ section.about-w3l p {
           </div>
         </div>
         <div class="col s12 m6 l4 offset-l2">
-          <div class="card grey darken-4 z-depth-5">
-            <div class="card-content white-text">
+          <div class="card grey darken-4 z-depth-5 cc2">
+            <div class="card-content white-text ">
               <span class="card-title center"><i class="medium material-icons">perm_data_setting</i><br><br>FABRICATE</span>
               <p>I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively.</p>
@@ -238,10 +240,10 @@ section.about-w3l p {
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row r2">
           <div class="col s12 m6 l4 offset-l1">
-            <div class="card grey darken-4 z-depth-5">
-              <div class="card-content white-text">
+            <div class="card grey darken-4 z-depth-5 cc3">
+              <div class="card-content white-text ">
                 <span class="card-title center"><i class="medium material-icons">assessment</i><br><br>Analyze</span>
                 <p>I am a very simple card. I am good at containing small bits of information.
                 I am convenient because I require little markup to use effectively.</p>
@@ -249,8 +251,8 @@ section.about-w3l p {
             </div>
           </div>
           <div class="col s12 m6 l4 offset-l2">
-            <div class="card grey darken-4 z-depth-5">
-              <div class="card-content white-text">
+            <div class="card grey darken-4 z-depth-5 cc4">
+              <div class="card-content white-text ">
                 <span class="card-title center"><i class="medium material-icons">flight_takeoff</i><br><br>Flight TEsting</span>
                 <p>I am a very simple card. I am good at containing small bits of information.
                 I am convenient because I require little markup to use effectively.</p>
@@ -269,10 +271,10 @@ section.about-w3l p {
 
     <!-- Teams -->
     <section id="Team">
-    <div class="row">
+    <div class="row rr1">
       <h3><center>  Our Team  </center></h3>
         <div class="col s12 m6 l4 offset-l4">
-          <div class="card transparent z-depth-5">
+          <div class="card transparent z-depth-5 ccc1">
             <div class="card-content">
               <span class="card-title center"><img src="assets/img/avatar1.png" class="circle" height=250px width=250px></span>
               <p>I am a very simple card. I am good at containing small bits of information.
@@ -281,9 +283,9 @@ section.about-w3l p {
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row rr2">
           <div class="col s12 m6 l4 offset-l1">
-            <div class="card transparent z-depth-5">
+            <div class="card transparent z-depth-5 ccc2">
               <div class="card-content">
                 <span class="card-title center"><img src="assets/img/avatar1.png" class="circle" height=250px width=250px></span>
                 <p>I am a very simple card. I am good at containing small bits of information.
@@ -292,7 +294,7 @@ section.about-w3l p {
             </div>
           </div>
           <div class="col s12 m6 l4 offset-l2">
-                <div class="card transparent z-depth-5">
+                <div class="card transparent z-depth-5 ccc2">
                   <div class="card-content">
                     <span class="card-title center"><img src="assets/img/avatar1.png" class="circle" height=250px width=250px></span>
                     <p>I am a very simple card. I am good at containing small bits of information.
@@ -301,9 +303,9 @@ section.about-w3l p {
                 </div>
               </div>
             </div>
-            <div class="row">
+            <div class="row rr3">
                 <div class="col s12 m6 l4 offset-l1">
-                  <div class="card transparent z-depth-5">
+                  <div class="card transparent z-depth-5 ccc3">
                     <div class="card-content">
                       <span class="card-title center"><img src="assets/img/avatar1.png" class="circle" height=250px width=250px></span>
                       <p>I am a very simple card. I am good at containing small bits of information.
@@ -312,7 +314,7 @@ section.about-w3l p {
                   </div>
                 </div>
                 <div class="col s12 m6 l4 offset-l2">
-                      <div class="card transparent z-depth-5">
+                      <div class="card transparent z-depth-5 ccc3">
                         <div class="card-content">
                           <span class="card-title center"><img src="assets/img/avatar1.png" class="circle" height=250px width=250px></span>
                           <p>I am a very simple card. I am good at containing small bits of information.
@@ -376,7 +378,6 @@ section.about-w3l p {
                   <div class="row">
                   		<button class="btn waves-effect waves-light right blue-grey darken-3" type="submit" name="action">Submit<i class="material-icons right">send</i>
   						</button>
-        
                   </div>
                  </form>
                </div>
@@ -413,7 +414,6 @@ section.about-w3l p {
     </div>
     <!--End Top Button-->
 
-
     <!-- Footer -->
     <footer class="page-footer blue-grey darken-4">
           <div class="container">
@@ -425,19 +425,6 @@ section.about-w3l p {
               <div class="col l5 offset-l2 s12">
                 <h5 class="white-text">Follow Us</h5>
                 <ul>
-
-                <style type="text/css">
-                	
-                	ul, li{
-                		display: inline;
-                	}
-
-                	i:hover{
-                		color: black;
-                	}
-
-                </style>
-
                   <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook-square" style="font-size: 36px; padding-right: 3px;"></i></a></li>
                   <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter-square" style="font-size: 36px; padding-right: 3px;"></i></a></li>
                   <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-instagram" style="font-size: 36px; padding-right: 3px;"></i></a></li>
@@ -454,8 +441,6 @@ section.about-w3l p {
         </footer>
         <!-- End Footer -->
 
-
-
     <!--Import jQuery before materialize.js-->
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -464,7 +449,7 @@ section.about-w3l p {
 
 <!-- Scroll Effect-->
     <script type="text/javascript">
-    	
+
 		  $('.scroll').on('click', function(e) {
 		  e.preventDefault();
 		  var section = $(this).attr('href').substr($(this).attr('href').indexOf('#'));
@@ -480,7 +465,7 @@ section.about-w3l p {
 <script type="text/javascript">
 	$(window).scroll(function() {
   if ($(this).scrollTop() > 1) {
-    $('#navbar').addClass('black');    
+    $('#navbar').addClass('black');
   }
   else {
     $('#navbar').removeClass('black');
@@ -526,38 +511,5 @@ section.about-w3l p {
       });
 
     </script>
-<!--End Carousel-->
-
-<!--Animation Bounceup-->
-<!--<script type="text/javascript">
-  var $animation_element=$('.animation-element');
-  var $window=$(window);
-
-  function check_in_view(){
-    var win_height=$window.height();
-    var win_top=$window.scrollTop();
-    var win_bot=(win_top+win_height);
-
-    $.each($animation_element,function(){
-      var $element=$(this);
-      var elm_height=$element.outerHeight();
-      var elm_top=$element.offset().top;
-      var elm_bot=(elm_top+elm_height);
-
-      //Check if current container is in viewport or not
-
-      if((elm_bot>=win_top)&&(elm_top<=win_bot)){
-        $element.addClass('in-view');
-      } else{
-        $element.removeClass('in-view');
-      }
-    });
-  }
-
-
-</script>-->
-
-
-
   </body>
 </html>

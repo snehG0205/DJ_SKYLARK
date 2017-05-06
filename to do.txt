@@ -1,0 +1,21 @@
+IDENT CODE => DONE
+
+Remove style and keep in one style tag => DONE
+
+remove padding between carousel and about us
+Remove padding between Our Sponsors and carousel
+
+align divs to adjust to screen
+
+Add show(), hide() method wherever you want
+
+
+
+selector: '.r1', offset: 50, callback: function(el) {
+  //Materialize.toast("This is wwd row1 !", 1500 );
+   $('.cc1').addClass("animated bounceInUp");
+   $('.cc2').addClass("animated bounceInUp");
+
+   r1 is the parent class of the elements animated here
+   cc1/cc2 is the element animated here
+   bounceInUp is the animation applied => apply whichever one you want from animate.css
