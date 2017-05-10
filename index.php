@@ -82,107 +82,81 @@
     </script>
     <script type="text/javascript">
         var options = [
-        {selector: '.c1', offset: 50, callback: function(el) {
+        {selector: '.about-w3l', offset: 50, callback: function(el) {
           //Materialize.toast("This is About Us!", 1500 );
-           $('.c1').addClass("animated zoomIn");
+          $('.c1').removeClass("hide");
+           $('.c1').addClass("animated bounceInUp");
 
         } },
-        {selector: '.c2', offset: 50, callback: function(el) {
+        {selector: '#Princi', offset: 50, callback: function(el) {
           //Materialize.toast("This is About Us!", 1500 );
-           $('.c2').addClass("animated zoomIn");
+          $('.c2').removeClass("hide");
+           $('.c2').addClass("animated bounceInUp");
 
         } },
         //what we do
-         {selector: '.r0', offset: 50, callback: function(el) {
+         {selector: '#wwd', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row1 !", 1500 );
-           $('.cc0').addClass("animated fadeInUp");
+          $('.wwd1').removeClass("hide");
+           $('.wwd1').addClass("animated bounceInUp");
 
         } },
-        {selector: '.r1', offset: 50, callback: function(el) {
+        {selector: '#wwd1', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row1 !", 1500 );
-           $('.cc1').addClass("animated fadeInUp");
-           $('.cc2').addClass("animated fadeInUp");
+         $('.wwd2').removeClass("hide");
+           $('.wwd2').addClass("animated bounceInUp");
 
         } },
-        {selector: '.r2', offset: 50, callback: function(el) {
+        {selector: '#wwd2', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.cc3').addClass("animated fadeInUp");
-          $('.cc4').addClass("animated fadeInUp");
-
-
+        $('.wwd3').removeClass("hide");
+           $('.wwd3').addClass("animated bounceInUp");
         } },
-        //Teams
-         {selector: '.rr0', offset: 50, callback: function(el) {
+        //competitions
+        {selector: '#Comp', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.ccc0').addClass("animated fadeInUp");
+        $('.cmp1').removeClass("hide");
+           $('.cmp1').addClass("animated bounceInUp");
         } },
-        {selector: '.rr1', offset: 50, callback: function(el) {
+        //airplanes
+        {selector: '#Air', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.ccc1').addClass("animated fadeInUp");
-          $('.ccc1').addClass("animated fadeInUp");
-          $('.ccc1').addClass("animated fadeInUp");
-
+        $('.a1').removeClass("hide");
+           $('.a1').addClass("animated bounceInUp");
         } },
-        {selector: '.rr2', offset: 50, callback: function(el) {
+        //team
+        {selector: '#Team', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.ccc2').addClass("animated fadeInUp");
-          $('.ccc2').addClass("animated fadeInUp");
-          $('.ccc2').addClass("animated fadeInUp");
+        $('.t1').removeClass("hide");
+           $('.t1').addClass("animated bounceInUp");
         } },
-        {selector: '.rr3', offset: 50, callback: function(el) {
+        {selector: '#t1', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.ccc3').addClass("animated fadeInUp");
-          $('.ccc3').addClass("animated fadeInUp");
-          $('.ccc3').addClass("animated fadeInUp");
+        $('.t2').removeClass("hide");
+           $('.t2').addClass("animated bounceInUp");
         } },
-        {selector: '.rr4', offset: 50, callback: function(el) {
+        {selector: '#t2', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.ccc4').addClass("animated fadeInUp");
-          $('.ccc4').addClass("animated fadeInUp");
-          $('.ccc4').addClass("animated fadeInUp");
+        $('.t3').removeClass("hide");
+           $('.t3').addClass("animated bounceInUp");
         } },
-
-        //Competitions
-
-        {selector: '.comp1', offset: 50, callback: function(el) {
+        {selector: '#t3', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.p1').addClass("animated fadeInUp");
+        $('.t4').removeClass("hide");
+           $('.t4').addClass("animated bounceInUp");
         } },
-        {selector: '.comp2', offset: 50, callback: function(el) {
+        //sponsors
+        {selector: '#Sponsors', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.p2').addClass("animated fadeInUp");
-          $('.p2').addClass("animated fadeInUp");
-          $('.p2').addClass("animated fadeInUp");
+        $('.car').removeClass("hide");
+           $('.car').addClass("animated bounceInUp");
         } },
-        {selector: '.comp3', offset: 50, callback: function(el) {
+        //forms
+        {selector: '#Contact', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.p3').addClass("animated fadeInUp");
+        $('.con').removeClass("hide");
+           $('.con').addClass("animated bounceInUp");
         } },
-
-        //Aircrafts
-        {selector: '.air1', offset: 50, callback: function(el) {
-          //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.a1').addClass("animated fadeInUp");
-        } },
-        {selector: '.air2', offset: 50, callback: function(el) {
-          //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.a2').addClass("animated fadeInUp");
-          $('.a2').addClass("animated fadeInUp");
-          $('.a2').addClass("animated fadeInUp");
-        } },
-
-        //Sponsors
-        {selector: '.s1', offset: 50, callback: function(el) {
-          //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.sp1').addClass("animated fadeInUp");
-        } },
-        //Contact
-        {selector: '.con', offset: 50, callback: function(el) {
-          //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.co1').addClass("animated fadeInUp");
-          $('.co1').addClass("animated fadeInUp");
-        } },
-
       ];
       Materialize.scrollFire(options);
 
@@ -252,23 +226,22 @@
 
 <!--Trial About Us-->
 
-<section class="about-w3l " id="About">
+<section class="about-w3l" id="About">
 	<div class="container">
 	<!--<div class="row c1" id="Who"><center><h2>About Us</h2></center></div>-->
-  <div class="row c1 center"><h4>Who We Are</h4>
+  <div class="row c1 hide center"><h4  class="" >Who We Are</h4>
   <hr style="width: 5%; color:#98878F;">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis arcu at metus molestie, ut fermentum metus laoreet. Maecenas lectus felis, posuere ut elementum in, sodales eget leo. Nulla laoreet orci dui, fermentum luctus purus aliquet eu. Phasellus cursus, erat quis ullamcorper efficitur, erat ligula euismod purus, vitae semper ligula sapien id est. In lobortis vulputate ornare.</p>
+  <p  class="c1 hide">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis arcu at metus molestie, ut fermentum metus laoreet. Maecenas lectus felis, posuere ut elementum in, sodales eget leo. Nulla laoreet orci dui, fermentum luctus purus aliquet eu. Phasellus cursus, erat quis ullamcorper efficitur, erat ligula euismod purus, vitae semper ligula sapien id est. In lobortis vulputate ornare.</p>
   </div>
-
   <div  id="Princi">
-  <center><h4>From the Principal's Desk</h4></center>
+  <center><h4 class="c2 hide">From the Principal's Desk</h4></center>
   <hr style="width: 5%; color:#98878F;"><br>
 	<div class="row">
-		<div class="col s12 m6 l6 c2">
+		<div class="col s12 m6 l6 c2 hide">
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis arcu at metus molestie, ut fermentum metus laoreet. Maecenas lectus felis, posuere ut elementum in, sodales eget leo. Nulla laoreet orci dui, fermentum luctus purus aliquet eu. Phasellus cursus, erat quis ullamcorper efficitur, erat ligula euismod purus, vitae semper ligula sapien id est. In lobortis vulputate ornare.</p>
 		</div>
-		<div class="col s12 m6 l6 c2">
+		<div class="col s12 m6 l6 c2 hide">
 		    <img src="assets/img/images.jpg" style="height: 300px !important; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
 		</div>
 	</div>
@@ -280,84 +253,86 @@
     <!-- what we do -->
 
     <section id="WWD" style="background-image: url('assets/img/21.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
-    <br><br>
-    <center><h3><div><b>What We Do</b></div></h3></center>
+      <br><br>
+      <center><h3><div class="wwd1 hide"><b>What We Do</b></div></h3></center>
       <hr style="width: 5%; color:#98878F;">
-    <div class="r0">
-
-    <div class="container"><p class="black-text cc0"><b>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,</b></p></div></div>
-    <div class="row">
-      <div class = "col s12 m10 l10 offset-l1 offset-m1">
-    <div class="row r1">
-        <div class="col s12 m6 l4 offset-l1">
-          <div class="card grey darken-4 z-depth-5 cc1">
-            <div class="card-content white-text ">
-              <span class="card-title center"><i class="medium material-icons">build</i><br><br>DESIGN</span>
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+        <div class="container wwd1 hide"><p class="black-text cc0"><b>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+           Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+           pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+           imperdiet a,</b></p></div>
+        <div class="row">
+          <div class = "col s12 m10 l10 offset-l1 offset-m1" id="wwd1">
+            <div class="row wwd2 hide">
+            <div class="col s12 m6 l4 offset-l1">
+              <div class="card grey darken-4 z-depth-5">
+                <div class="card-content white-text ">
+                  <span class="card-title center"><i class="medium material-icons">build</i><br><br>DESIGN</span>
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col s12 m6 l4 offset-l2">
-          <div class="card grey darken-4 z-depth-5 cc2">
-            <div class="card-content white-text ">
-              <span class="card-title center"><i class="medium material-icons">assessment</i><br><br>ANALYZE</span>
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row r2">
-          <div class="col s12 m6 l4 offset-l1">
-            <div class="card grey darken-4 z-depth-5 cc3">
-              <div class="card-content white-text ">
-                <span class="card-title center"><i class="medium material-icons">perm_data_setting</i><br><br>FABRICATE</span>
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+            <div class="col s12 m6 l4 offset-l2">
+              <div class="card grey darken-4 z-depth-5">
+                <div class="card-content white-text ">
+                  <span class="card-title center"><i class="medium material-icons">assessment</i><br><br>ANALYZE</span>
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col s12 m6 l4 offset-l2">
-            <div class="card grey darken-4 z-depth-5 cc4">
-              <div class="card-content white-text ">
-                <span class="card-title center"><i class="medium material-icons">flight_takeoff</i><br><br>FLIGHT TESTING</span>
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+          <div  id="wwd2"></div>
+          <div class="row wwd3 hide">
+              <div class="col s12 m6 l4 offset-l1">
+                <div class="card grey darken-4 z-depth-5">
+                  <div class="card-content white-text ">
+                    <span class="card-title center"><i class="medium material-icons">perm_data_setting</i><br><br>FABRICATE</span>
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6 l4 offset-l2">
+                <div class="card grey darken-4 z-depth-5 cc4">
+                  <div class="card-content white-text ">
+                    <span class="card-title center"><i class="medium material-icons">flight_takeoff</i><br><br>FLIGHT TESTING</span>
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
     </section>
     <!-- End What we do -->
 
     <!-- Competitions -->
     <section id="Comp">
-    <div class="comp1"><center><h3 class="p1">Competitions</h3></center></div>
-      <hr style="width: 5%; color:#98878F;"><br>
+      <div class="comp1 cmp1 hide"><center><h3 class="p1">Competitions</h3></center></div>
+        <hr style="width: 5%; color:#98878F;"><br>
 
-    <div class="container">
+      <div class="container cmp1 hide">
 
-    <div class="row center comp2" style="margin-right: 20px; margin-left:20px;" >
-      <div class="col s12 m4 l4 p2">
-        <img src="assets/img/1.jpg" style="width: 290px;height: 290px; padding: 10 10 10 10;">
+      <div class="row center comp2" style="margin-right: 20px; margin-left:20px;" >
+        <div class="col s12 m4 l4 p2">
+          <img src="assets/img/1.jpg" style="width: 290px;height: 290px; padding: 10 10 10 10;">
+        </div>
+        <div class="col s12 m4 l4 p2" >
+         <img src="assets/img/2.jpg" style="width: 290px;height: 290px; padding: 10 10 10 10;">
+        </div>
+        <div class="col s12 m4 l4 p2">
+          <img src="assets/img/3.jpg" style="width: 290px;height: 290px; padding: 10 10 10 10;">
+        </div>
       </div>
-      <div class="col s12 m4 l4 p2" >
-       <img src="assets/img/2.jpg" style="width: 290px;height: 290px; padding: 10 10 10 10;">
-      </div>
-      <div class="col s12 m4 l4 p2">
-        <img src="assets/img/3.jpg" style="width: 290px;height: 290px; padding: 10 10 10 10;">
-      </div>
-    </div>
 
-    <div class="row comp3 " style="margin-left:20px; margin-right: 10px;">
-    <p class="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis arcu at metus molestie, ut fermentum metus laoreet. Maecenas lectus felis, posuere ut elementum in, sodales eget leo. Nulla laoreet orci dui, fermentum luctus purus aliquet eu. Phasellus cursus, erat quis ullamcorper efficitur, erat ligula euismod purus, vitae semper ligula sapien id est. In lobortis vulputate ornare.</p><br>
-    </div>
+      <div class="row comp3 " style="margin-left:20px; margin-right: 10px;">
+      <p class="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis arcu at metus molestie, ut fermentum metus laoreet. Maecenas lectus felis, posuere ut elementum in, sodales eget leo. Nulla laoreet orci dui, fermentum luctus purus aliquet eu. Phasellus cursus, erat quis ullamcorper efficitur, erat ligula euismod purus, vitae semper ligula sapien id est. In lobortis vulputate ornare.</p><br>
+      </div>
 
-    </div>
-    </div>
+      </div>
+      </div>
     </section>
     <!-- End Competitions -->
 
@@ -440,53 +415,54 @@
 
 
     <section id="Air">
-    <div class="air1"><center><h1 class="a1">Aircrafts</h1></center></div>
-      <hr style="width: 5%; color:#98878F;">
-      <br>
-    <div class="container">
-    <div class="row center air2">
-      <div class="col s12 m4 a2">
-        <a href="#popup1" ><img src="assets/img/1.jpg" style="width:290px; height:290px; padding:10 10 10 10;"></a>
-      </div>
-      <div class="col s12 m4 a2">
-        <a href="#popup2" ><img src="assets/img/1.jpg" style="width:290px; height:290px; padding:10 10 10 10;"></a>
-      </div>
-      <div class="col s12 m4 a2">
-        <a href="#popup3" ><img src="assets/img/1.jpg" style="width:290px; height:290px; padding:10 10 10 10;"></a>
-      </div>
-    </div>
+        <div class="air1 a1 hide"><center><h1 class="a1">Aircrafts</h1></center></div>
+          <hr style="width: 5%; color:#98878F;">
+          <br>
+        <div class="container">
+        <div class="row center air2 a1 hide">
+          <div class="col s12 m4 a2">
+            <a href="#popup1" ><img src="assets/img/1.jpg" style="width:290px; height:290px; padding:10 10 10 10;"></a>
+          </div>
+          <div class="col s12 m4 a2">
+            <a href="#popup2" ><img src="assets/img/1.jpg" style="width:290px; height:290px; padding:10 10 10 10;"></a>
+          </div>
+          <div class="col s12 m4 a2">
+            <a href="#popup3" ><img src="assets/img/1.jpg" style="width:290px; height:290px; padding:10 10 10 10;"></a>
+          </div>
+        </div>
 
-      <!--PopUp Blocks-->
-      <div id="popup1" class="overlay light">
-        <a class="cancel" href="#"></a>
-        <div class="popup">
-          <h2>What the what?</h2>
-          <div class="content">
-                <p>Click outside the popup to close.</p>
+          <!--PopUp Blocks-->
+          <div id="popup1" class="overlay light">
+            <a class="cancel" href="#"></a>
+            <div class="popup">
+              <h2>What the what?</h2>
+              <div class="content">
+                    <p>Click outside the popup to close.</p>
+              </div>
+            </div>
+          </div>
+          <div id="popup2" class="overlay light">
+            <a class="cancel" href="#"></a>
+            <div class="popup">
+              <h2>What the what?</h2>
+              <div class="content">
+                    <p>Click outside the popup to close.</p>
+              </div>
+            </div>
+          </div>
+          <div id="popup3" class="overlay light">
+            <a class="cancel" href="#"></a>
+            <div class="popup">
+              <h2>What the fuck?</h2>
+              <div class="content">
+                    <p>Click outside the popup to close.afyuactw
+                    ywetf7twevuewhvwe;v
+                    jvt7rvgweivbrevnerbiuthbetbdf,m lernvierbieurvkerv kdfvd</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div id="popup2" class="overlay light">
-        <a class="cancel" href="#"></a>
-        <div class="popup">
-          <h2>What the what?</h2>
-          <div class="content">
-                <p>Click outside the popup to close.</p>
-          </div>
-        </div>
-      </div>
-      <div id="popup3" class="overlay light">
-        <a class="cancel" href="#"></a>
-        <div class="popup">
-          <h2>What the fuck?</h2>
-          <div class="content">
-                <p>Click outside the popup to close.afyuactw
-                ywetf7twevuewhvwe;v
-                jvt7rvgweivbrevnerbiuthbetbdf,m lernvierbieurvkerv kdfvd</p>
-          </div>
-        </div>
-      </div>
-    </div>
+      </section>
 <!--End of aircrafts-->
 
 
@@ -494,323 +470,312 @@
 <style type="text/css">
 
   .ch-grid {
-  margin: 20px 0 0 0;
-  padding: 0;
-  list-style: none;
-  display: block;
-  text-align: center;
-  width: 100%;
-}
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
 
-.ch-grid:after,
-.ch-item:before {
-  content: '';
-    display: table;
-}
+        .ch-grid:after,
+        .ch-item:before {
+          content: '';
+            display: table;
+        }
 
-.ch-grid:after {
-  clear: both;
-}
+        .ch-grid:after {
+          clear: both;
+        }
 
-.ch-grid li {
-  width: 220px;
-  height: 220px;
-  display: inline-block;
-  margin: 20px;
-}
+        .ch-grid li {
+          width: 220px;
+          height: 220px;
+          display: inline-block;
+          margin: 20px;
+        }
 
-.ch-item {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  overflow: hidden;
-  position: relative;
-  cursor: default;
-  box-shadow:
-    inset 0 0 0 16px rgba(255,255,255,0.6),
-    0 1px 2px rgba(0,0,0,0.1);
-  transition: all 0.4s ease-in-out;
-}
+        .ch-item {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          overflow: hidden;
+          position: relative;
+          cursor: default;
+          box-shadow:
+            inset 0 0 0 16px rgba(255,255,255,0.6),
+            0 1px 2px rgba(0,0,0,0.1);
+          transition: all 0.4s ease-in-out;
+        }
 
-/*The description element will be positioned absolutely
-and we’ll give it a semi-transparent background by setting an RGBA value. It’s opacity is going to be 0 and we’ll scale it down to 0, too:*/
+        /*The description element will be positioned absolutely
+        and we’ll give it a semi-transparent background by setting an RGBA value. It’s opacity is going to be 0 and we’ll scale it down to 0, too:*/
 
-.ch-info {
-  position: absolute;
-  background: rgba(0,0,0,0.8); /*changed*/
-  width: inherit;
-  height: inherit;
-  border-radius: 50%;
-  overflow: hidden;
-  opacity: 0;
-  transition: all 0.4s ease-in-out;
-  transform: scale(0);
-}
+        .ch-info {
+          position: absolute;
+          background: rgba(0,0,0,0.8); /*changed*/
+          width: inherit;
+          height: inherit;
+          border-radius: 50%;
+          overflow: hidden;
+          opacity: 0;
+          transition: all 0.4s ease-in-out;
+          transform: scale(0);
+        }
 
 
-.ch-info h3 {
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 22px;
-  margin: 0 30px;
-  padding: 45px 0 0 0;
-  height: 140px;
-  font-family: 'Open Sans', Arial, sans-serif;
-  text-shadow:
-    0 0 1px #fff,
-    0 1px 2px rgba(0,0,0,0.3);
-}
+        .ch-info h3 {
+          color: #fff;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          font-size: 22px;
+          margin: 0 30px;
+          padding: 45px 0 0 0;
+          height: 140px;
+          font-family: 'Open Sans', Arial, sans-serif;
+          text-shadow:
+            0 0 1px #fff,
+            0 1px 2px rgba(0,0,0,0.3);
+        }
 
-/*The paragraph element has 0 opacity and a transition (we want to fade it in on hover but with a delay):
-*/
+        /*The paragraph element has 0 opacity and a transition (we want to fade it in on hover but with a delay):
+        */
 
-.ch-info p {
-  color: #fff;
-  padding: 10px 5px;
-  font-style: italic;
-  margin: 0 30px;
-  font-size: 12px;
-  border-top: 1px solid rgba(255,255,255,0.5);
-  opacity: 0;
-  transition: all 1s ease-in-out 0.4s;
-}
+        .ch-info p {
+          color: #fff;
+          padding: 10px 5px;
+          font-style: italic;
+          margin: 0 30px;
+          font-size: 12px;
+          border-top: 1px solid rgba(255,255,255,0.5);
+          opacity: 0;
+          transition: all 1s ease-in-out 0.4s;
+        }
 
-.ch-info p a:hover {
-  color: rgba(255,242,34, 0.8);
-}
+        .ch-info p a:hover {
+          color: rgba(255,242,34, 0.8);
+        }
 
-/*nimation*/
-.ch-item:hover {
-  box-shadow:
-    inset 0 0 0 1px rgba(255,255,255,0.1),
-    0 1px 2px rgba(0,0,0,0.1);
-}
+        /*nimation*/
+        .ch-item:hover {
+          box-shadow:
+            inset 0 0 0 1px rgba(255,255,255,0.1),
+            0 1px 2px rgba(0,0,0,0.1);
+        }
 
-/*fadeIn*/
+        /*fadeIn*/
 
-.ch-item:hover .ch-info {
-  transform: scale(1);
-  opacity: 1;
-}
+        .ch-item:hover .ch-info {
+          transform: scale(1);
+          opacity: 1;
+        }
 
-.ch-item:hover .ch-info p {
-  opacity: 1;
-}
+        .ch-item:hover .ch-info p {
+          opacity: 1;
+        }
 
-.main{
-  width: 90%;
-  margin: 0 auto;
-  position: relative;
-}
+        .main{
+          width: 90%;
+          margin: 0 auto;
+          position: relative;
+        }
 
-.ch-img-1 {
-  background-image: url(assets/1.jpg);
-}
+        .ch-img-1 {
+          background-image: url(assets/1.jpg);
+        }
 
-.ch-img-2 {
-  background-image: url(assets/2.jpg);
-}
+        .ch-img-2 {
+          background-image: url(assets/2.jpg);
+        }
 
-.ch-img-3 {
-  background-image: url(assets/3.jpg);
-}
+        .ch-img-3 {
+          background-image: url(assets/3.jpg);
+        }
 
-.ch-info p{
-  font-size: 30px;
-}
+        .ch-info p{
+          font-size: 30px;
+        }
 
-.ch-info h3{
-  padding-top: 75px;
-  font-size: 30px;
-}
+        .ch-info h3{
+          padding-top: 75px;
+          font-size: 30px;
+        }
 
-.ch-info i:hover{
-  color: black;
-}
+        .ch-info i:hover{
+          color: black;
+        }
 
 </style>
-
-<br>
+<br><br>
   <div class="grey lighten-2">
- <section class="main" id="Team">
- <div class="rr0"><center><h3 class="ccc0">The Team</h3></center></div>
-   <hr style="width: 5%; color:#98878F;">
- <br>
-  <div class="container">
-  <div class="row rr1">
+           <section class="main" id="Team">
+           <div class=""><center><h3 class="ccc0">The Team</h3></center></div>
+             <hr style="width: 5%; color:#98878F;">
+           <br>
+            <div class="container">
+            <div class="row t1 hide">
+                  <ul class="ch-grid">
+                    <li>
+                      <div class="ch-item ch-img-1 ">
+                        <div class="ch-info">
+                          <h3>Name</h3>
+                          <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="ch-item ch-img-2 ">
+                        <div class="ch-info">
+                          <h3>Name</h3>
+                          <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="ch-item ch-img-3 ">
+                        <div class="ch-info">
+                          <h3>Name</h3>
+                          <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
 
+            </div>
+            <div id="t1"></div>
+            <div class="row t2 hide">
+                  <ul class="ch-grid">
+                    <li>
+                      <div class="ch-item ch-img-1 ">
+                        <div class="ch-info">
+                          <h3>Name</h3>
+                          <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="ch-item ch-img-2 ">
+                        <div class="ch-info">
+                          <h3>Name</h3>
+                          <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="ch-item ch-img-3 ">
+                        <div class="ch-info">
+                         <h3>Name</h3>
+                          <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
 
-        <ul class="ch-grid">
-          <li>
-            <div class="ch-item ch-img-1 ccc1">
-              <div class="ch-info">
-                <h3>Name</h3>
-                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
-              </div>
             </div>
-          </li>
-          <li>
-            <div class="ch-item ch-img-2 ccc1">
-              <div class="ch-info">
-                <h3>Name</h3>
-                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="ch-item ch-img-3 ccc1">
-              <div class="ch-info">
-                <h3>Name</h3>
-                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
-              </div>
-            </div>
-          </li>
-        </ul>
+              <div id="t2"></div>
+            <div class="row t3 hide">
+                  <ul class="ch-grid">
+                    <li>
+                      <div class="ch-item ch-img-1 ccc3">
+                        <div class="ch-info">
+                          <h3>Name</h3>
+                          <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="ch-item ch-img-2 ">
+                        <div class="ch-info">
+                          <h3>Name</h3>
+                          <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="ch-item ch-img-3 ">
+                        <div class="ch-info">
+                          <h3>Name</h3>
+                          <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
 
-  </div>
-  <div class="row rr2">
+            </div><div id="t3"></div>
+            <div class="row t4 hide">
+                  <ul class="ch-grid">
+                    <li>
+                      <div class="ch-item ch-img-1 ">
+                        <div class="ch-info">
+                          <h3>Name</h3>
+                          <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="ch-item ch-img-2 ">
+                        <div class="ch-info">
+                          <h3>Name</h3>
+                          <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="ch-item ch-img-3 ">
+                        <div class="ch-info">
+                          <h3>Name</h3>
+                          <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
 
-
-        <ul class="ch-grid">
-          <li>
-            <div class="ch-item ch-img-1 ccc2">
-              <div class="ch-info">
-                <h3>Name</h3>
-                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
-              </div>
             </div>
-          </li>
-          <li>
-            <div class="ch-item ch-img-2 ccc2">
-              <div class="ch-info">
-                <h3>Name</h3>
-                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="ch-item ch-img-3 ccc2">
-              <div class="ch-info">
-               <h3>Name</h3>
-                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
-              </div>
-            </div>
-          </li>
-        </ul>
-
-  </div>
-  <div class="row rr3">
-
-
-        <ul class="ch-grid">
-          <li>
-            <div class="ch-item ch-img-1 ccc3">
-              <div class="ch-info">
-                <h3>Name</h3>
-                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="ch-item ch-img-2 ccc3">
-              <div class="ch-info">
-                <h3>Name</h3>
-                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="ch-item ch-img-3 ccc3">
-              <div class="ch-info">
-                <h3>Name</h3>
-                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
-              </div>
-            </div>
-          </li>
-        </ul>
-
-  </div>
-  <div class="row rr4">
-
-
-        <ul class="ch-grid">
-          <li>
-            <div class="ch-item ch-img-1 ccc4">
-              <div class="ch-info">
-                <h3>Name</h3>
-                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="ch-item ch-img-2 ccc4">
-              <div class="ch-info">
-                <h3>Name</h3>
-                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="ch-item ch-img-3 ccc4">
-              <div class="ch-info">
-                <h3>Name</h3>
-                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
-              </div>
-            </div>
-          </li>
-        </ul>
-
-  </div>
-</div>
-</section>
+          </div>
+          </section>
 </div>
 <!--End of teams-->
 
     <!-- Sponsors -->
     <br>
     <section id="Sponsors">
-    <div class="container" style="padding-top: 10px !important;">
-     <div class="s1"> <h3 class="sp1"><center> Our Sponsors</center></h3></div>
-       <hr style="width: 5%; color:#98878F;">
-    <div class="carousel">
-      <?php
-          $dir = "assets/images";
-          $files = scandir($dir);
-          // Count number of files and store them to variable..
-          $num_files = count($files)-2;
-          $c=1;
+          <div class="container" style="padding-top: 10px !important;">
+           <div class="s1 car hide"> <h3 class="sp1"><center> Our Sponsors</center></h3></div>
+             <hr style="width: 5%; color:#98878F;">
+          <div class="carousel car hide">
+            <?php
+                $dir = "assets/images";
+                $files = scandir($dir);
+                // Count number of files and store them to variable..
+                $num_files = count($files)-2;
+                $c=1;
 
-          if (is_dir($dir))
-          {
-               if ($dh = opendir($dir))
-               {
-                 while (($file = readdir($dh)) !== false)
-                 {
-                   if ($file == '.' OR $file == '..') {
-                      continue;
-                   }
-                   echo "<a class='carousel-item'><img src='".$dir,"/".$file."'></a>";
+                if (is_dir($dir))
+                {
+                     if ($dh = opendir($dir))
+                     {
+                       while (($file = readdir($dh)) !== false)
+                       {
+                         if ($file == '.' OR $file == '..') {
+                            continue;
+                         }
+                         echo "<a class='carousel-item'><img src='".$dir,"/".$file."'></a>";
+                       }
+                       closedir($dh);
+                     }
+
                  }
-                 closedir($dh);
-               }
 
-           }
+            ?>
 
-      ?>
-<!--
-      <a class="carousel-item"><img src="http://lorempixel.com/250/250/nature/2"></a>
-      <a class="carousel-item"><img src="http://lorempixel.com/250/250/nature/3"></a>
-      <a class="carousel-item"><img src="http://lorempixel.com/250/250/nature/4"></a>
-      <a class="carousel-item"><img src="http://lorempixel.com/250/250/nature/5"></a> -->
-    </div>
-    </div>
+          </div>
+          </div>
     </section>
     <!-- End Sponsors -->
 
     <!-- COntact  -->
     <section id="Contact">
-    <div class="row con" style="background-color: #627186;">
+    <div class="row con hide" style="background-color: #627186;">
     <br><br>
         <div class="col s12 m6 co1">
           <div class="card blue-grey lighten-4" >
