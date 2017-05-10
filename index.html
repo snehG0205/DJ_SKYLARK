@@ -17,10 +17,19 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
    <!-- <script type="text/javascript" src="js/anime.js"></script>-->
 
+   <!--Hover--> <script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+
+   <!--Font-->
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=ABeeZee">
+
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <style>
+      body{
+        font-family: 'ABeeZee',serif !important;
+      }
+
       .card{
         border: 0px !important;
       }
@@ -75,64 +84,134 @@
         var options = [
         {selector: '.c1', offset: 50, callback: function(el) {
           //Materialize.toast("This is About Us!", 1500 );
-           $('.c1').addClass("animated bounceInUp");
+           $('.c1').addClass("animated zoomIn");
 
         } },
         {selector: '.c2', offset: 50, callback: function(el) {
           //Materialize.toast("This is About Us!", 1500 );
-           $('.c2').addClass("animated bounceInUp");
+           $('.c2').addClass("animated zoomIn");
+
+        } },
+        //what we do
+         {selector: '.r0', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row1 !", 1500 );
+           $('.cc0').addClass("animated fadeInUp");
 
         } },
         {selector: '.r1', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row1 !", 1500 );
-           $('.cc1').addClass("animated bounceInUp");
-           $('.cc2').addClass("animated bounceInUp");
+           $('.cc1').addClass("animated fadeInUp");
+           $('.cc2').addClass("animated fadeInUp");
 
         } },
         {selector: '.r2', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.cc3').addClass("animated bounceInUp");
-          $('.cc4').addClass("animated bounceInUp");
+          $('.cc3').addClass("animated fadeInUp");
+          $('.cc4').addClass("animated fadeInUp");
 
 
         } },
+        //Teams
+         {selector: '.rr0', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+          $('.ccc0').addClass("animated fadeInUp");
+        } },
         {selector: '.rr1', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.ccc1').addClass("animated bounceInUp");
+          $('.ccc1').addClass("animated fadeInUp");
+          $('.ccc1').addClass("animated fadeInUp");
+          $('.ccc1').addClass("animated fadeInUp");
 
         } },
         {selector: '.rr2', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.ccc2').addClass("animated bounceInUp");
-          $('.ccc2').addClass("animated bounceInUp");
+          $('.ccc2').addClass("animated fadeInUp");
+          $('.ccc2').addClass("animated fadeInUp");
+          $('.ccc2').addClass("animated fadeInUp");
         } },
         {selector: '.rr3', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.ccc3').addClass("animated bounceInUp");
-          $('.ccc3').addClass("animated bounceInUp");
+          $('.ccc3').addClass("animated fadeInUp");
+          $('.ccc3').addClass("animated fadeInUp");
+          $('.ccc3').addClass("animated fadeInUp");
         } },
+        {selector: '.rr4', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+          $('.ccc4').addClass("animated fadeInUp");
+          $('.ccc4').addClass("animated fadeInUp");
+          $('.ccc4').addClass("animated fadeInUp");
+        } },
+
+        //Competitions
+       
+        {selector: '.comp1', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+          $('.p1').addClass("animated fadeInUp");
+        } },
+        {selector: '.comp2', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+          $('.p2').addClass("animated fadeInUp");
+          $('.p2').addClass("animated fadeInUp");
+          $('.p2').addClass("animated fadeInUp");
+        } },
+        {selector: '.comp3', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+          $('.p3').addClass("animated fadeInUp");
+        } },
+
+        //Aircrafts
+        {selector: '.air1', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+          $('.a1').addClass("animated fadeInUp");
+        } },
+        {selector: '.air2', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+          $('.a2').addClass("animated fadeInUp");
+          $('.a2').addClass("animated fadeInUp");
+          $('.a2').addClass("animated fadeInUp");
+        } },
+
+        //Sponsors
+        {selector: '.s1', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+          $('.sp1').addClass("animated fadeInUp");
+        } },
+        //Contact
+        {selector: '.con', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+          $('.co1').addClass("animated fadeInUp");
+          $('.co1').addClass("animated fadeInUp");
+        } },
+
       ];
       Materialize.scrollFire(options);
 
     </script>
   </head>
 
-  <body>
+  <body class="grey lighten-2">
 
 
-    <!--Navigation-->
-
+   <!--Navigation-->
+    
     <div class="navbar-fixed" id="navv">
     <nav id="navbar">
-     <div class="nav-wrapper" \>
+     <div class="nav-wrapper">
        <a href="#!" class="brand-logo">Skylark</a>
        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">Menu</i></a>
        <ul class="right hide-on-med-and-down">
          <li><a href="#Home" class="scroll waves-effect waves-light">Home</a></li>
-         <li><a href="#About" class="scroll waves-effect waves-light">About US</a></li>
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">About Us<i class="material-icons right">arrow_drop_down</i></a>
+          </li>
+            <ul id="dropdown1" class="dropdown-content">
+              <li><a href="#Who" class="scroll waves-effect waves-light">Who We Are</a></li>
+              <li class="divider"></li>
+              <li><a href="#Princi" class="scroll waves-effect waves-light">From The Principal's Desk</a></li>
+            </ul>
+
          <li><a href="#WWD" class="scroll waves-effect waves-light">What We Do</a></li>
          <li><a href="#Comp" class="scroll waves-effect waves-light">Competitions</a></li>
-         <!-- <li><a href="#">Results</a></li> -->
+         <li><a href="#Air" class="scroll waves-effect waves-light">Aircrafts</a></li>
          <li><a href="#Team" class="scroll waves-effect waves-light">Team</a></li>
          <li><a href="#Sponsors" class="scroll waves-effect waves-light">Sponsors</a></li>
          <li><a href="#Contact" class="scroll waves-effect waves-light">Contact Us</a></li>
@@ -142,7 +221,7 @@
          <li><a href="#About" class="scroll waves-effect waves-light">About US</a></li>
          <li><a href="#WWD" class="scroll waves-effect waves-light">What We Do</a></li>
          <li><a href="#Comp" class="scroll waves-effect waves-light">Competitions</a></li>
-         <!-- <li><a href="#">Results</a></li> -->
+         <li><a href="#Air" class="scroll waves-effect waves-light">Aircrafts</a></li>
          <li><a href="#Team" class="scroll waves-effect waves-light">Team</a></li>
          <li><a href="#Sponsors" class="scroll waves-effect waves-light">Sponsors</a></li>
          <li><a href="#Contact" class="scroll waves-effect waves-light">Contact Us</a></li>
@@ -171,40 +250,22 @@
     </section>
      <!-- End Carousel -->
 
-
-     <!-- Start About Us -->
-     <!--<section id="About">
-     <div class="row">
-     <div class="card col s12 m6 l10 offset-l1">
-      <div class="card-content">
-      <div class="card-tabs">
-        <ul class="tabs tabs-fixed-width">
-          <li class="tab animated bounceIn slow"><a href="#about">From The Principal's Desk</a></li>
-        </ul>
-      </div>
-      <div class="card-content grey lighten-4">
-        <div class="row">
-          <div id="about" class="col s6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
-          <div class="col s6">
-            <center><div class="animated fadeIn"><img src="assets/img/speaker.png"></div></center>
-          </div>
-      </div>
-    </div>
-    </div>
-  </div>
-</div>
-<hr>
-</section>-->
-<!-- End About us -->
-
 <!--Trial About Us-->
 
 <section class="about-w3l " id="About">
 	<div class="container">
-	<div class="row c1"><center><h2>About Us</h2></center></div>
-	<div class="row" style="height: 350px;" class="">
+	<!--<div class="row c1" id="Who"><center><h2>About Us</h2></center></div>-->
+  <div class="row c1 center"><h4>Who We Are</h4>
+  <hr style="width: 5%; color:#98878F;">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis arcu at metus molestie, ut fermentum metus laoreet. Maecenas lectus felis, posuere ut elementum in, sodales eget leo. Nulla laoreet orci dui, fermentum luctus purus aliquet eu. Phasellus cursus, erat quis ullamcorper efficitur, erat ligula euismod purus, vitae semper ligula sapien id est. In lobortis vulputate ornare.</p>
+  </div>
+ 
+  <div  id="Princi">
+  <center><h4>From the Principal's Desk</h4></center>
+  <hr style="width: 5%; color:#98878F;"><br>
+	<div class="row">
 		<div class="col s12 m6 l6 c2">
-			<center><h4>From the Principal's Desk</h4></center>
+			
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis arcu at metus molestie, ut fermentum metus laoreet. Maecenas lectus felis, posuere ut elementum in, sodales eget leo. Nulla laoreet orci dui, fermentum luctus purus aliquet eu. Phasellus cursus, erat quis ullamcorper efficitur, erat ligula euismod purus, vitae semper ligula sapien id est. In lobortis vulputate ornare.</p>
 		</div>
 		<div class="col s12 m6 l6 c2">
@@ -212,14 +273,21 @@
 		</div>
 	</div>
 	</div>
+  </div>
+  
 </section>
 
     <!-- what we do -->
+    
     <section id="WWD" style="background-image: url('assets/img/21.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+    <br><br>
+    <center><h3><div><b>What We Do</b></div></h3></center>
+      <hr style="width: 5%; color:#98878F;">
+    <div class="r0">
+    
+    <div class="container"><p class="black-text cc0"><b>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,</b></p></div></div>
     <div class="row">
       <div class = "col s12 m10 l10 offset-l1 offset-m1">
-    <center><div><b>What We Do</b></div></center>
-    <p class="white-text"><b>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,</b></p>
     <div class="row r1">
         <div class="col s12 m6 l4 offset-l1">
           <div class="card grey darken-4 z-depth-5 cc1">
@@ -233,7 +301,7 @@
         <div class="col s12 m6 l4 offset-l2">
           <div class="card grey darken-4 z-depth-5 cc2">
             <div class="card-content white-text ">
-              <span class="card-title center"><i class="medium material-icons">perm_data_setting</i><br><br>FABRICATE</span>
+              <span class="card-title center"><i class="medium material-icons">assessment</i><br><br>ANALYZE</span>
               <p>I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively.</p>
             </div>
@@ -244,7 +312,7 @@
           <div class="col s12 m6 l4 offset-l1">
             <div class="card grey darken-4 z-depth-5 cc3">
               <div class="card-content white-text ">
-                <span class="card-title center"><i class="medium material-icons">assessment</i><br><br>Analyze</span>
+                <span class="card-title center"><i class="medium material-icons">perm_data_setting</i><br><br>FABRICATE</span>
                 <p>I am a very simple card. I am good at containing small bits of information.
                 I am convenient because I require little markup to use effectively.</p>
               </div>
@@ -253,7 +321,7 @@
           <div class="col s12 m6 l4 offset-l2">
             <div class="card grey darken-4 z-depth-5 cc4">
               <div class="card-content white-text ">
-                <span class="card-title center"><i class="medium material-icons">flight_takeoff</i><br><br>Flight TEsting</span>
+                <span class="card-title center"><i class="medium material-icons">flight_takeoff</i><br><br>FLIGHT TESTING</span>
                 <p>I am a very simple card. I am good at containing small bits of information.
                 I am convenient because I require little markup to use effectively.</p>
               </div>
@@ -266,70 +334,445 @@
     <!-- End What we do -->
 
     <!-- Competitions -->
+    <section id="Comp">
+    <div class="comp1"><center><h3 class="p1">Competitions</h3></center></div>
+      <hr style="width: 5%; color:#98878F;"><br>
 
+    <div class="container">
+
+    <div class="row center comp2" style="margin-right: 20px; margin-left:20px;" >
+      <div class="col s12 m4 l4 p2">
+        <img src="assets/img/1.jpg" style="width: 290px;height: 290px; padding: 10 10 10 10;">
+      </div>
+      <div class="col s12 m4 l4 p2" >
+       <img src="assets/img/2.jpg" style="width: 290px;height: 290px; padding: 10 10 10 10;">
+      </div>
+      <div class="col s12 m4 l4 p2">
+        <img src="assets/img/3.jpg" style="width: 290px;height: 290px; padding: 10 10 10 10;">
+      </div>
+    </div>
+
+    <div class="row comp3 " style="margin-left:20px; margin-right: 10px;">
+    <p class="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis arcu at metus molestie, ut fermentum metus laoreet. Maecenas lectus felis, posuere ut elementum in, sodales eget leo. Nulla laoreet orci dui, fermentum luctus purus aliquet eu. Phasellus cursus, erat quis ullamcorper efficitur, erat ligula euismod purus, vitae semper ligula sapien id est. In lobortis vulputate ornare.</p><br>
+    </div>
+
+    </div>
+    </div>
+    </section>
     <!-- End Competitions -->
 
-    <!-- Teams -->
-    <section id="Team">
-    <div class="row rr1">
-      <h3><center>  Our Team  </center></h3>
-        <div class="col s12 m6 l4 offset-l4">
-          <div class="card transparent z-depth-5 ccc1">
-            <div class="card-content">
-              <span class="card-title center"><img src="assets/img/avatar1.png" class="circle" height=250px width=250px></span>
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-            </div>
+        <!--Aircrafts-->
+
+    <style type="text/css">
+        .overlay {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.5);
+            transition: opacity 200ms;
+            visibility: hidden;
+            opacity: 0;
+          }
+          .overlay.light {
+            background: rgba(255, 255, 255, 0.5);
+          }
+          .overlay .cancel {
+            position: absolute;
+            left: 500px;
+            width: 100%;
+            height: 100%;
+            cursor: default;
+          }
+          .overlay:target {
+            visibility: visible;
+            opacity: 1;
+          }
+
+          .popup {
+            margin: 75px auto;
+            left: 500px;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #666;
+            width: 300px;
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+            position: fixed;
+          }
+          .light .popup {
+            border-color: #aaa;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+          }
+          .popup h2 {
+            margin-top: 0;
+            color: #666;
+            font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
+          }
+          .popup .close {
+            position: fixed;
+            width: 20px;
+            height: 20px;
+            top: 20px;
+            right: 20px;
+            opacity: 0.8;
+            transition: all 200ms;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #666;
+          }
+          .popup .close:hover {
+            opacity: 1;
+          }
+          .popup .content {
+            max-height: 400px;
+            overflow: auto;
+          }
+          .popup p {
+            margin: 0 0 1em;
+          }
+          .popup p:last-child {
+            margin: 0;
+          }
+
+    </style>
+
+
+    <section id="Air">
+    <div class="air1"><center><h1 class="a1">Aircrafts</h1></center></div>
+      <hr style="width: 5%; color:#98878F;">
+      <br>
+    <div class="container">
+    <div class="row center air2">
+      <div class="col s12 m4 a2">
+        <a href="#popup1" ><img src="assets/img/1.jpg" style="width:290px; height:290px; padding:10 10 10 10;"></a>
+      </div>
+      <div class="col s12 m4 a2">
+        <a href="#popup2" ><img src="assets/img/1.jpg" style="width:290px; height:290px; padding:10 10 10 10;"></a>
+      </div>
+      <div class="col s12 m4 a2">
+        <a href="#popup3" ><img src="assets/img/1.jpg" style="width:290px; height:290px; padding:10 10 10 10;"></a>
+      </div>
+    </div>
+
+      <!--PopUp Blocks-->
+      <div id="popup1" class="overlay light">
+        <a class="cancel" href="#"></a>
+        <div class="popup">
+          <h2>What the what?</h2>
+          <div class="content">
+                <p>Click outside the popup to close.</p>
           </div>
         </div>
       </div>
-      <div class="row rr2">
-          <div class="col s12 m6 l4 offset-l1">
-            <div class="card transparent z-depth-5 ccc2">
-              <div class="card-content">
-                <span class="card-title center"><img src="assets/img/avatar1.png" class="circle" height=250px width=250px></span>
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
-              </div>
-            </div>
+      <div id="popup2" class="overlay light">
+        <a class="cancel" href="#"></a>
+        <div class="popup">
+          <h2>What the what?</h2>
+          <div class="content">
+                <p>Click outside the popup to close.</p>
           </div>
-          <div class="col s12 m6 l4 offset-l2">
-                <div class="card transparent z-depth-5 ccc2">
-                  <div class="card-content">
-                    <span class="card-title center"><img src="assets/img/avatar1.png" class="circle" height=250px width=250px></span>
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
-                  </div>
-                </div>
+        </div>
+      </div>
+      <div id="popup3" class="overlay light">
+        <a class="cancel" href="#"></a>
+        <div class="popup">
+          <h2>What the fuck?</h2>
+          <div class="content">
+                <p>Click outside the popup to close.afyuactw
+                ywetf7twevuewhvwe;v
+                jvt7rvgweivbrevnerbiuthbetbdf,m lernvierbieurvkerv kdfvd</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--End of aircrafts-->
+
+
+    <!--Trial Teams-->
+<style type="text/css">
+  
+  .ch-grid {
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+  content: '';
+    display: table;
+}
+
+.ch-grid:after {
+  clear: both;
+}
+
+.ch-grid li {
+  width: 220px;
+  height: 220px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.ch-item {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  cursor: default;
+  box-shadow: 
+    inset 0 0 0 16px rgba(255,255,255,0.6),
+    0 1px 2px rgba(0,0,0,0.1);
+  transition: all 0.4s ease-in-out;
+}
+
+/*The description element will be positioned absolutely 
+and we’ll give it a semi-transparent background by setting an RGBA value. It’s opacity is going to be 0 and we’ll scale it down to 0, too:*/
+
+.ch-info {
+  position: absolute;
+  background: rgba(0,0,0,0.8); /*changed*/
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  transform: scale(0);
+}
+
+
+.ch-info h3 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin: 0 30px;
+  padding: 45px 0 0 0;
+  height: 140px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-shadow: 
+    0 0 1px #fff, 
+    0 1px 2px rgba(0,0,0,0.3);
+}
+
+/*The paragraph element has 0 opacity and a transition (we want to fade it in on hover but with a delay):
+*/
+
+.ch-info p {
+  color: #fff;
+  padding: 10px 5px;
+  font-style: italic;
+  margin: 0 30px;
+  font-size: 12px;
+  border-top: 1px solid rgba(255,255,255,0.5);
+  opacity: 0;
+  transition: all 1s ease-in-out 0.4s;
+}
+
+.ch-info p a:hover {
+  color: rgba(255,242,34, 0.8);
+}
+
+/*nimation*/
+.ch-item:hover {
+  box-shadow: 
+    inset 0 0 0 1px rgba(255,255,255,0.1),
+    0 1px 2px rgba(0,0,0,0.1);
+}
+
+/*fadeIn*/
+
+.ch-item:hover .ch-info {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.ch-item:hover .ch-info p {
+  opacity: 1;
+}
+
+.main{
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ch-img-1 { 
+  background-image: url(assets/1.jpg);
+}
+
+.ch-img-2 { 
+  background-image: url(assets/2.jpg);
+}
+
+.ch-img-3 { 
+  background-image: url(assets/3.jpg);
+}
+
+.ch-info p{
+  font-size: 30px;
+}
+
+.ch-info h3{
+  padding-top: 75px;
+  font-size: 30px;
+}
+
+.ch-info i:hover{
+  color: black;
+}
+
+</style>
+
+<br>
+  <div class="grey lighten-2">
+ <section class="main" id="Team">
+ <div class="rr0"><center><h3 class="ccc0">The Team</h3></center></div>
+   <hr style="width: 5%; color:#98878F;">
+ <br>
+  <div class="container">
+  <div class="row rr1">
+ 
+      
+        <ul class="ch-grid">
+          <li>
+            <div class="ch-item ch-img-1 ccc1">
+              <div class="ch-info">
+                <h3>Name</h3>
+                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
               </div>
             </div>
-            <div class="row rr3">
-                <div class="col s12 m6 l4 offset-l1">
-                  <div class="card transparent z-depth-5 ccc3">
-                    <div class="card-content">
-                      <span class="card-title center"><img src="assets/img/avatar1.png" class="circle" height=250px width=250px></span>
-                      <p>I am a very simple card. I am good at containing small bits of information.
-                      I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col s12 m6 l4 offset-l2">
-                      <div class="card transparent z-depth-5 ccc3">
-                        <div class="card-content">
-                          <span class="card-title center"><img src="assets/img/avatar1.png" class="circle" height=250px width=250px></span>
-                          <p>I am a very simple card. I am good at containing small bits of information.
-                          I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <hr>
-            </section>
-    <!-- End Teams -->
+          </li>
+          <li>
+            <div class="ch-item ch-img-2 ccc1">
+              <div class="ch-info">
+                <h3>Name</h3>
+                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-img-3 ccc1">
+              <div class="ch-info">
+                <h3>Name</h3>
+                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      
+  </div>
+  <div class="row rr2">
+ 
+      
+        <ul class="ch-grid">
+          <li>
+            <div class="ch-item ch-img-1 ccc2">
+              <div class="ch-info">
+                <h3>Name</h3>
+                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-img-2 ccc2">
+              <div class="ch-info">
+                <h3>Name</h3>
+                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-img-3 ccc2">
+              <div class="ch-info">
+               <h3>Name</h3>
+                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      
+  </div>
+  <div class="row rr3">
+ 
+      
+        <ul class="ch-grid">
+          <li>
+            <div class="ch-item ch-img-1 ccc3">
+              <div class="ch-info">
+                <h3>Name</h3>
+                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-img-2 ccc3">
+              <div class="ch-info">
+                <h3>Name</h3>
+                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-img-3 ccc3">
+              <div class="ch-info">
+                <h3>Name</h3>
+                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      
+  </div>
+  <div class="row rr4">
+ 
+      
+        <ul class="ch-grid">
+          <li>
+            <div class="ch-item ch-img-1 ccc4">
+              <div class="ch-info">
+                <h3>Name</h3>
+                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-img-2 ccc4">
+              <div class="ch-info">
+                <h3>Name</h3>
+                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-img-3 ccc4">
+              <div class="ch-info">
+                <h3>Name</h3>
+                <p>Post<br> <a href="http://drbl.in/eOPF"><i class="fa fa-facebook-square" style="font-size: 15px; color: white;"></i></a></p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      
+  </div>
+</div>
+</section>
+</div>
+<!--End of teams-->
 
     <!-- Sponsors -->
+    <br>
     <section id="Sponsors">
-      <h3><center> Our Sponsors  </center></h3>
+    <div class="container" style="padding-top: 10px !important;">
+     <div class="s1"> <h3 class="sp1"><center> Our Sponsors</center></h3></div>
+       <hr style="width: 5%; color:#98878F;">
     <div class="carousel">
       <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/250/250/nature/1"></a>
       <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/250/250/nature/2"></a>
@@ -337,14 +780,16 @@
       <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/250/250/nature/4"></a>
       <a class="carousel-item" href="#five!"><img src="http://lorempixel.com/250/250/nature/5"></a>
     </div>
+    </div>
     </section>
     <!-- End Sponsors -->
 
     <!-- COntact  -->
     <section id="Contact">
-    <div class="row">
-        <div class="col s12 m6">
-          <div class="card transparent z-depth-5">
+    <div class="row con" style="background-color: #627186;">
+    <br><br>
+        <div class="col s12 m6 co1">
+          <div class="card blue-grey lighten-4" >
             <div class="card-content">
               <span class="card-title center">Send Us a Message</span>
               <div class="row">
@@ -353,26 +798,26 @@
                      <div class="input-field col s6">
                        <i class="material-icons prefix">account_circle</i>
                        <input id="name" type="text" class="validate">
-                       <label for="name">First Name</label>
+                       <label for="name" class="black-text">First Name</label>
                      </div>
                      <div class="input-field col s6">
                        <i class="material-icons prefix">mail</i>
                        <input id="email" type="email" class="validate">
-                       <label for="email">Email</label>
+                       <label for="email" class="black-text">Email</label>
                      </div>
                    </div>
                    <div class="row">
                      <div class="input-field col s12">
                        <i class="material-icons prefix">font_download</i>
                        <input id="subject" type="text" class="validate">
-                       <label for="subject">Subject</label>
+                       <label for="subject" class="black-text">Subject</label>
                      </div>
                    </div>
                    <div class="row">
                     <div class="input-field col s12">
                       <i class="material-icons prefix">mode_edit</i>
                       <textarea id="msg" class="materialize-textarea"></textarea>
-                      <label for="msg">Message</label>
+                      <label for="msg" class="black-text">Message</label>
                     </div>
                   </div>
                   <div class="row">
@@ -385,8 +830,8 @@
             </div>
           </div>
         </div>
-        <div class="col s12 m6">
-              <div class="card transparent z-depth-5">
+        <div class="col s12 m6 co1">
+              <div class="card blue-grey lighten-4">
                 <div class="card-content">
                   <span class="card-title center">Find Us Here</span>
                   <div class="row"><i class="fa fa-map-marker left" style="font-size: 30px;"></i>
@@ -407,8 +852,14 @@
     <!-- End Contact -->
 
     <!--Top Button-->
+    <style type="text/css">
+      #topButton{
+        display: none;
+      }
+    </style>
+
     <div class="fixed-action-btn">
-    <a class="btn-floating btn-large waves-effect waves-light blue-grey scroll" href="#Home" >
+    <a class="btn-floating btn-large waves-effect waves-light blue-grey scroll" href="#Home" id="topButton" onclick="topFunction()">
       <i class="fa fa-angle-double-up"></i>
     </a>
     </div>
@@ -510,6 +961,19 @@
        });
       });
 
+    </script>
+
+    <!--Hidden Top Button-->
+    <script type="text/javascript">
+        window.onscroll=function(){
+          scrollFunction()};
+          function scrollFunction(){
+            if (document.body.scrollTop>20 || document.documentElement.scrollTop>20){
+              document.getElementById("topButton").style.display="block";
+            } else{
+              document.getElementById("topButton").style.display="none";
+            }
+          }
     </script>
   </body>
 </html>
