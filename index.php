@@ -241,27 +241,12 @@
         $('.t1').removeClass("hide");
            $('.t1').addClass("animated fadeInUp");
         } },
-        {selector: '#t1', offset: 50, callback: function(el) {
+        {selector: '.team1', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
         $('.t2').removeClass("hide");
            $('.t2').addClass("animated fadeInUp");
         } },
-        {selector: '#t2', offset: 50, callback: function(el) {
-          //Materialize.toast("This is wwd row2 !", 1500 );
-        $('.t3').removeClass("hide");
-           $('.t3').addClass("animated fadeInUp");
-        } },
-        {selector: '#t3', offset: 50, callback: function(el) {
-          //Materialize.toast("This is wwd row2 !", 1500 );
-        $('.t4').removeClass("hide");
-           $('.t4').addClass("animated fadeInUp");
-        } },
-        {selector: '#t4', offset: 50, callback: function(el) {
-          //Materialize.toast("This is wwd row2 !", 1500 );
-        $('.t5').removeClass("hide");
-           $('.t5').addClass("animated fadeInUp");
-        } },
-       
+               
         //forms
         {selector: '#Contact', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
@@ -657,7 +642,7 @@ The team had its first breakthrough by securing a rank of 17th in the world, in 
       </div>
     </div>
     </div>
-    <br><br>
+    <br><br><br>
 
   </section>
     </div>
@@ -665,175 +650,10 @@ The team had its first breakthrough by securing a rank of 17th in the world, in 
 
 
 <!--Exhibition-->
-<style type="text/css">
-  figure.effect-milo {
-  background: #2e5d5a;
-}
-
-figure.effect-milo img {
-  max-width: none;
-  width: -webkit-calc(100% + 60px);
-  width: calc(100% + 60px);
-  opacity: 1;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(-30px,0,0) scale(1.12);
-  transform: translate3d(-30px,0,0) scale(1.12);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-figure.effect-milo:hover img {
-  opacity: 0.5;
-  -webkit-transform: translate3d(0,0,0) scale(1);
-  transform: translate3d(0,0,0) scale(1);
-}
-
-figure.effect-milo h2 {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  padding: 1em 1.2em;
-}
-
-figure.effect-milo p {
-  padding: 0 10px 0 0;
-  width: 50%;
-  border-right: 1px solid #fff;
-  text-align: right;
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(-40px,0,0);
-  transform: translate3d(-40px,0,0);
-}
-
-figure.effect-milo:hover p {
-  opacity: 1;
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-
-.grid {
-  position: relative;
-  margin: 0 auto;
-  padding: 1em 0 4em;
-  max-width: 1000px;
-  list-style: none;
-  text-align: center;
-}
-
-/* Common style */
-.grid figure {
-  position: relative;
-  float: left;
-  overflow: hidden;
-  margin: 10px 1%;
-  min-width: 320px;
-  max-width: 480px;
-  max-height: 360px;
-  width: 48%;
-  background: #3085a3;
-  text-align: center;
-  cursor: pointer;
-}
-
-.grid figure img {
-  position: relative;
-  display: block;
-  min-height: 100%;
-  max-width: 100%;
-  opacity: 0.8;
-}
-
-.grid figure figcaption {
-  padding: 2em;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 1.25em;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.grid figure figcaption::before,
-.grid figure figcaption::after {
-  pointer-events: none;
-}
-
-.grid figure figcaption,
-.grid figure figcaption > a {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
-.grid figure figcaption > a {
-  z-index: 1000;
-  text-indent: 200%;
-  white-space: nowrap;
-  font-size: 0;
-  opacity: 0;
-}
-
-.grid figure h2 {
-  word-spacing: -0.15em;
-  font-weight: 300;
-}
-
-.grid figure h2 span {
-  font-weight: 800;
-}
-
-.grid figure h2,
-.grid figure p {
-  margin: 0;
-}
-
-.grid figure p {
-  letter-spacing: 1px;
-  font-size: 75%;
-}
-
-.content {
-  margin: 0 auto;
-  max-width: 1000px;
-}
-
-.content > h2 {
-  clear: both;
-  margin: 0;
-  padding: 4em 1% 0;
-  color: #484B54;
-  font-weight: 800;
-  font-size: 1.5em;
-}
-
-.content > h2:first-child {
-  padding-top: 0em;
-}
-
-@media screen and (max-width: 50em) {
-  .content {
-    padding: 0 10px;
-    text-align: center;
-  }
-  .grid figure {
-    display: inline-block;
-    float: none;
-    margin: 10px auto;
-    width: 100%;
-  }
-}
-
-
-</style>
-
 
 <section id="Exhibit">
+<div class="grey">
+<br><br><br>
 <div class="Ex1"><center><h3 class="ex1 hide">Exhibition And Events</h3></center></div>
         <hr style="width: 5%; color:#98878F;"><br>
 
@@ -855,7 +675,7 @@ figure.effect-milo:hover p {
 
   </div>
   <br><br>
-  <div class="row center">
+  <div class="row center Ex4">
     <div class="col s12 m6 l6 ex4 hide">
       <figure>
       <img src="assets/images/Picture1.jpg" height="240px" width="320px">
@@ -870,38 +690,6 @@ figure.effect-milo:hover p {
     </div>
   </div>
 </div><br><br><br><br>
-
-<!--<div class="container">
-<div class="content">
-      <div class="grid">
-          <figure class="effect-milo">
-            <img src="assets/images/Picture6.jpg" alt="img11"/>
-            <figcaption>
-              <p>SVKM Yuva Fest</p>
-            </figcaption>     
-          </figure>
-          <figure class="effect-milo">
-            <img src="assets/images/Picture5.jpg" alt="img03"/>
-            <figcaption>
-              <p>SVKM Mastermind</p></figcaption>
-          </figure>
-      </div>
-      <div class="grid">
-          <figure class="effect-milo">
-            <img src="assets/images/Picture1.jpg" alt="img11"/>
-            <figcaption>
-              <p>Transform Maharashtra Vision 2025</p>
-            </figcaption>     
-          </figure>
-          <figure class="effect-milo">
-            <img src="assets/images/Picture2.jpg" alt="img03"/>
-            <figcaption>
-              <p>World of Skill</p>
-            </figcaption>     
-          </figure>
-      </div>
-</div>
-</div><br><br><br><br>-->
 
 <!--End of exhibition-->
 
@@ -919,12 +707,13 @@ figure.effect-milo:hover p {
               </div>
             </div>
           </div><br><br><br>
+          </div>
   </section>
 
 <!--End of mass media-->
 
 <!-- Sponsors -->
-    <div class="grey">
+    <div class="grey lighten-1">
     <style type="text/css">
                 li {
           list-style: none;
@@ -1014,7 +803,7 @@ figure.effect-milo:hover p {
 
 
     <!--Trial Teams-->
-    <div class="grey lighten-1">
+    <div class="grey">
      <section class="main" id="Team">
 <!--<div class="grey lighten-1">-->
 <style type="text/css">
@@ -1159,9 +948,9 @@ figure.effect-milo:hover p {
 <br><br>
 
 
-           <div><center><h3 class="ccc0">The Team</h3></center>
-             <hr style="width: 5%; color:#98878F;">
-            <div class="container">
+           <div class="Team"><center><h3 class="t1">The Team</h3></center>
+             <hr style="width: 5%; color:#98878F;"><br><br>
+            <div class="container team1 t2">
             <img src="assets/images/desk.jpg" height="100%" width="100%">
             </div>
             <br><br>
@@ -1173,7 +962,7 @@ figure.effect-milo:hover p {
 
     
     <!-- COntact  -->
-    <section id="Contact" class="grey">
+    <section id="Contact" class="grey lighten-1">
     <div class="row con hide">
     <br><br>
         <div class="col s12 m6 co1">
@@ -1259,7 +1048,8 @@ figure.effect-milo:hover p {
             <div class="row">
               <div class="col l5 s12">
                 <h5 class="white-text">Onwards & Upwards</h5>
-                <p class="grey-text text-lighten-4"><p>
+                <img src="assets/images/skylogo2.PNG" height="65px" width="180px" >
+                <p class="grey-text text-lighten-4"></p>
               </div>
               <div class="col l5 offset-l2 s12">
                 <h5 class="white-text">Follow Us</h5>
