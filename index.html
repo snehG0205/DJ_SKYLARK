@@ -7,6 +7,7 @@
     <!--Import Animate.css-->
     <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen,projection"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" media="screen,projection"/>
+    <link rel="stylesheet" type="text/css" href="css/style10.css" />
 
     <!--Icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -70,7 +71,7 @@
 
 
     </style>
-    <script type="text/javascript">
+        <script type="text/javascript">
           var options = [
         {selector: '.class', offset: 200, callback: customCallbackFunc },
         {selector: '.other-class', offset: 200, callback: function() {
@@ -82,111 +83,86 @@
     </script>
     <script type="text/javascript">
         var options = [
-        {selector: '.c1', offset: 50, callback: function(el) {
+        {selector: '.about-w3l', offset: 50, callback: function(el) {
           //Materialize.toast("This is About Us!", 1500 );
-           $('.c1').addClass("animated zoomIn");
+          $('.c1').removeClass("hide");
+           $('.c1').addClass("animated fadeInUp");
 
         } },
-        {selector: '.c2', offset: 50, callback: function(el) {
+        {selector: '#Princi', offset: 50, callback: function(el) {
           //Materialize.toast("This is About Us!", 1500 );
-           $('.c2').addClass("animated zoomIn");
+          $('.c2').removeClass("hide");
+           $('.c2').addClass("animated fadeInUp");
 
         } },
         //what we do
-         {selector: '.r0', offset: 50, callback: function(el) {
+         {selector: '#wwd', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row1 !", 1500 );
-           $('.cc0').addClass("animated fadeInUp");
+          $('.wwd1').removeClass("hide");
+           $('.wwd1').addClass("animated fadeInUp");
 
         } },
-        {selector: '.r1', offset: 50, callback: function(el) {
+        {selector: '#wwd1', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row1 !", 1500 );
-           $('.cc1').addClass("animated fadeInUp");
-           $('.cc2').addClass("animated fadeInUp");
+         $('.wwd2').removeClass("hide");
+           $('.wwd2').addClass("animated slideInLeft");
 
         } },
-        {selector: '.r2', offset: 50, callback: function(el) {
+        {selector: '#wwd2', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.cc3').addClass("animated fadeInUp");
-          $('.cc4').addClass("animated fadeInUp");
-
-
+        $('.wwd3').removeClass("hide");
+           $('.wwd3').addClass("animated slideInLeft");
         } },
-        //Teams
-         {selector: '.rr0', offset: 50, callback: function(el) {
+        //competitions
+        {selector: '#Comp', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.ccc0').addClass("animated fadeInUp");
+        $('.cmp1').removeClass("hide");
+           $('.cmp1').addClass("animated fadeInUp");
         } },
-        {selector: '.rr1', offset: 50, callback: function(el) {
+        //airplanes
+        {selector: '#Air', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.ccc1').addClass("animated fadeInUp");
-          $('.ccc1').addClass("animated fadeInUp");
-          $('.ccc1').addClass("animated fadeInUp");
-
+        $('.a1').removeClass("hide");
+           $('.a1').addClass("animated fadeInUp");
         } },
-        {selector: '.rr2', offset: 50, callback: function(el) {
+        //team
+        {selector: '#Team', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.ccc2').addClass("animated fadeInUp");
-          $('.ccc2').addClass("animated fadeInUp");
-          $('.ccc2').addClass("animated fadeInUp");
+        $('.t1').removeClass("hide");
+           $('.t1').addClass("animated fadeInUp");
         } },
-        {selector: '.rr3', offset: 50, callback: function(el) {
+        {selector: '#t1', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.ccc3').addClass("animated fadeInUp");
-          $('.ccc3').addClass("animated fadeInUp");
-          $('.ccc3').addClass("animated fadeInUp");
+        $('.t2').removeClass("hide");
+           $('.t2').addClass("animated fadeInUp");
         } },
-        {selector: '.rr4', offset: 50, callback: function(el) {
+        {selector: '#t2', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.ccc4').addClass("animated fadeInUp");
-          $('.ccc4').addClass("animated fadeInUp");
-          $('.ccc4').addClass("animated fadeInUp");
+        $('.t3').removeClass("hide");
+           $('.t3').addClass("animated fadeInUp");
         } },
-
-        //Competitions
-       
-        {selector: '.comp1', offset: 50, callback: function(el) {
+        {selector: '#t3', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.p1').addClass("animated fadeInUp");
+        $('.t4').removeClass("hide");
+           $('.t4').addClass("animated fadeInUp");
         } },
-        {selector: '.comp2', offset: 50, callback: function(el) {
+        //sponsors
+        {selector: '#Sponsors', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.p2').addClass("animated fadeInUp");
-          $('.p2').addClass("animated fadeInUp");
-          $('.p2').addClass("animated fadeInUp");
+        $('.car').removeClass("hide");
+           $('.car').addClass("animated fadeInUp");
         } },
-        {selector: '.comp3', offset: 50, callback: function(el) {
+        //forms
+        {selector: '#Contact', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.p3').addClass("animated fadeInUp");
+        $('.con').removeClass("hide");
+           $('.con').addClass("animated fadeInUp");
         } },
-
-        //Aircrafts
-        {selector: '.air1', offset: 50, callback: function(el) {
-          //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.a1').addClass("animated fadeInUp");
-        } },
-        {selector: '.air2', offset: 50, callback: function(el) {
-          //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.a2').addClass("animated fadeInUp");
-          $('.a2').addClass("animated fadeInUp");
-          $('.a2').addClass("animated fadeInUp");
-        } },
-
-        //Sponsors
-        {selector: '.s1', offset: 50, callback: function(el) {
-          //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.sp1').addClass("animated fadeInUp");
-        } },
-        //Contact
-        {selector: '.con', offset: 50, callback: function(el) {
-          //Materialize.toast("This is wwd row2 !", 1500 );
-          $('.co1').addClass("animated fadeInUp");
-          $('.co1').addClass("animated fadeInUp");
-        } },
-
       ];
       Materialize.scrollFire(options);
 
     </script>
+
   </head>
 
   <body class="grey lighten-2">
@@ -235,7 +211,10 @@
    <section id="Home">
     <div class="carousel carousel-slider center" data-indicators="true">
        <div class="carousel-item" href="#one!">
-         <img src="assets/img/1.jpg">
+         <video autoplay height="100%" width="100%"> <!--Add controls-->
+         	<source src="assets/img/50.mp4">
+         </video>
+         <!--<ifr width="853" height="480" src="assets/img/50.mp4" allowfullscreen frameborder="0"></iframe>-->
        </div>
        <div class="carousel-item" href="#two!">
          <img src="assets/img/2.jpg">
@@ -244,7 +223,7 @@
          <img src="assets/img/3.jpg">
        </div>
        <div class="carousel-item" href="#four!">
-        <img src="assets/img/4.jpg">
+        <img src="assets/img/3.jpg">
        </div>
      </div>
     </section>
@@ -257,7 +236,10 @@
 	<!--<div class="row c1" id="Who"><center><h2>About Us</h2></center></div>-->
   <div class="row c1 center"><h4>Who We Are</h4>
   <hr style="width: 5%; color:#98878F;">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis arcu at metus molestie, ut fermentum metus laoreet. Maecenas lectus felis, posuere ut elementum in, sodales eget leo. Nulla laoreet orci dui, fermentum luctus purus aliquet eu. Phasellus cursus, erat quis ullamcorper efficitur, erat ligula euismod purus, vitae semper ligula sapien id est. In lobortis vulputate ornare.</p>
+  <p>DJS SKYLARK is one of the country's most proficient aero design team from SVKM's Dwarkadas J. Sanghvi College of Engineering, Mumbai.
+We research, design, analyse and fabricate remote controlled aircrafts and compete on an international platform against universities across the globe.<br>
+With accolades to our name, we aim to set an example and promote aerospace engineering by organising events and workshops for aero enthusiasts in the city.
+</p>
   </div>
  
   <div  id="Princi">
@@ -269,7 +251,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis arcu at metus molestie, ut fermentum metus laoreet. Maecenas lectus felis, posuere ut elementum in, sodales eget leo. Nulla laoreet orci dui, fermentum luctus purus aliquet eu. Phasellus cursus, erat quis ullamcorper efficitur, erat ligula euismod purus, vitae semper ligula sapien id est. In lobortis vulputate ornare.</p>
 		</div>
 		<div class="col s12 m6 l6 c2">
-		    <img src="assets/img/images.jpg" style="height: 300px !important; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+		    <img src="assets/img/principal.jpg" style="height: 300px !important; background-repeat: no-repeat; background-size: cover;">
 		</div>
 	</div>
 	</div>
@@ -279,31 +261,29 @@
 
     <!-- what we do -->
     
-    <section id="WWD" style="background-image: url('assets/img/21.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+    <section id="WWD" style="background-image: url('assets/img/wwd.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
     <br><br>
-    <center><h3><div><b>What We Do</b></div></h3></center>
+    <center><h3 class="white-text"><div><b>What We Do</b></div></h3></center>
       <hr style="width: 5%; color:#98878F;">
     <div class="r0">
     
-    <div class="container"><p class="black-text cc0"><b>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,</b></p></div></div>
+    <div class="container"><p class="black-text cc0"></p></div></div>
     <div class="row">
       <div class = "col s12 m10 l10 offset-l1 offset-m1">
     <div class="row r1">
         <div class="col s12 m6 l4 offset-l1">
-          <div class="card grey darken-4 z-depth-5 cc1">
+          <div class="card grey darken-4 z-depth-5 cc1" style="color: rgba(225,225,225,0.5);">
             <div class="card-content white-text ">
               <span class="card-title center"><i class="medium material-icons">build</i><br><br>DESIGN</span>
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p>With our thinking caps on, we start off by researching and designing a model of the aircraft, from scratch, using CAD softwares.</p>
             </div>
           </div>
         </div>
         <div class="col s12 m6 l4 offset-l2">
           <div class="card grey darken-4 z-depth-5 cc2">
             <div class="card-content white-text ">
-              <span class="card-title center"><i class="medium material-icons">assessment</i><br><br>ANALYZE</span>
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <span class="card-title center"><i class="medium material-icons">assessment</i><br><br>ANALYSIS</span>
+              <p>The proposed model is now analysed by subjecting it to real life conditions and making modifications where required.<br><br> </p>
             </div>
           </div>
         </div>
@@ -312,9 +292,8 @@
           <div class="col s12 m6 l4 offset-l1">
             <div class="card grey darken-4 z-depth-5 cc3">
               <div class="card-content white-text ">
-                <span class="card-title center"><i class="medium material-icons">perm_data_setting</i><br><br>FABRICATE</span>
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+                <span class="card-title center"><i class="medium material-icons">perm_data_setting</i><br><br>MANUFACTURING</span>
+                <p>After we carry out iterations,  the final aicraft design is brought to life using various manufacturing processes.<br><br> </p>
               </div>
             </div>
           </div>
@@ -322,8 +301,7 @@
             <div class="card grey darken-4 z-depth-5 cc4">
               <div class="card-content white-text ">
                 <span class="card-title center"><i class="medium material-icons">flight_takeoff</i><br><br>FLIGHT TESTING</span>
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+                <p>It is the moment of truth when the throttle roars as we watch our own aircraft take off from the runway.<br><br></p>
               </div>
             </div>
           </div>
@@ -342,7 +320,7 @@
 
     <div class="row center comp2" style="margin-right: 20px; margin-left:20px;" >
       <div class="col s12 m4 l4 p2">
-        <img src="assets/img/1.jpg" style="width: 290px;height: 290px; padding: 10 10 10 10;">
+        <img src="assets/img/Boeing.jpg" style="width: 290px;height: 290px; padding: 10 10 10 10;">
       </div>
       <div class="col s12 m4 l4 p2" >
        <img src="assets/img/2.jpg" style="width: 290px;height: 290px; padding: 10 10 10 10;">
@@ -353,9 +331,7 @@
     </div>
 
     <div class="row comp3 " style="margin-left:20px; margin-right: 10px;">
-    <p class="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis arcu at metus molestie, ut fermentum metus laoreet. Maecenas lectus felis, posuere ut elementum in, sodales eget leo. Nulla laoreet orci dui, fermentum luctus purus aliquet eu. Phasellus cursus, erat quis ullamcorper efficitur, erat ligula euismod purus, vitae semper ligula sapien id est. In lobortis vulputate ornare.</p><br>
-    </div>
-
+    <p class="p3" style="text-align: justify;">The Society of Automotive Engineers (SAE) Aero Design Competiton is intended to provide under-graduate and graduate engineering students with a real life engineering challenge.<br> First and foremost a design competition, students will find themselves performing trade studies and making compromises to arrive at a design solution that will optimally meet the mission requirements while still confirming to the configuration limitations.<br>It is anually held in the USA featuring 75 teams from all over the world.<br></p><br>
     </div>
     </div>
     </section>
@@ -363,82 +339,7 @@
 
         <!--Aircrafts-->
 
-    <style type="text/css">
-        .overlay {
-            position: fixed;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: rgba(0, 0, 0, 0.5);
-            transition: opacity 200ms;
-            visibility: hidden;
-            opacity: 0;
-          }
-          .overlay.light {
-            background: rgba(255, 255, 255, 0.5);
-          }
-          .overlay .cancel {
-            position: absolute;
-            left: 500px;
-            width: 100%;
-            height: 100%;
-            cursor: default;
-          }
-          .overlay:target {
-            visibility: visible;
-            opacity: 1;
-          }
-
-          .popup {
-            margin: 75px auto;
-            left: 500px;
-            padding: 20px;
-            background: #fff;
-            border: 1px solid #666;
-            width: 300px;
-            box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-            position: fixed;
-          }
-          .light .popup {
-            border-color: #aaa;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
-          }
-          .popup h2 {
-            margin-top: 0;
-            color: #666;
-            font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
-          }
-          .popup .close {
-            position: fixed;
-            width: 20px;
-            height: 20px;
-            top: 20px;
-            right: 20px;
-            opacity: 0.8;
-            transition: all 200ms;
-            font-size: 24px;
-            font-weight: bold;
-            text-decoration: none;
-            color: #666;
-          }
-          .popup .close:hover {
-            opacity: 1;
-          }
-          .popup .content {
-            max-height: 400px;
-            overflow: auto;
-          }
-          .popup p {
-            margin: 0 0 1em;
-          }
-          .popup p:last-child {
-            margin: 0;
-          }
-
-    </style>
-
-
+   
     <section id="Air">
     <div class="air1"><center><h1 class="a1">Aircrafts</h1></center></div>
       <hr style="width: 5%; color:#98878F;">

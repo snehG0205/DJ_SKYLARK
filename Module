@@ -1,0 +1,89 @@
+Module
+No.
+Topics Ref. Hrs.
+1 Introduction
+Reviewing basic concepts of a relational database, Basic SQL
+2,5 1
+2 Advanced SQL
+Complex Retrieval Queries using Group By, Recursive Queries, nested
+Queries ; Specifying Constraints as Assertions; Event Condition Action
+(ECA) model (Triggers) in SQL;
+Creating and working with Views in SQL; Database Programming:
+Embedded SQL, Dynamic SQL and SQLJ, Database Programming with
+Function Calls: JDBC; Stored Procedures in SQL, Embedded SQL,
+Dynamic SQL.
+1,2 6
+3 Advanced Transaction Processing & Recovery
+Review of ACID properties and Serializability ; Multiversion Concurrency
+Control Techniques; Granularity of Data Items and Multiple Granularity
+Locking ; Advanced Database Recovery techniques like Write Ahead
+Logging (WAL), ARIES, Checkpoints.
+1,2 6
+4 Data Security
+Introduction to Database Security Issues; Discretionary Access Control
+Based on Granting and Revoking Privileges; Mandatory
+Access Control and Role-Based Access Control for Multilevel Security;
+1,2,6 4
+Sardar Patel Institute of Technology
+Bhavan‟s Campus, Munshi Nagar, Andheri (West), Mumbai-400058-India
+(Autonomous Institute Affiliated to University of Mumbai)
+15
+SQL Injection; Introduction to Statistical Database Security Introduction to
+Flow Control
+5 Storage and Indexing
+Operation on Files; hashing Techniques; Types of Single-Level Ordered
+Indexes; Multilevel Indexes; Dynamic Multilevel Indexes Using B-Trees
+and B+-Trees; Indexes on Multiple Keys.
+1,2 4
+6 Distributed Databases
+Types of Distributed Database Systems; Distributed Database
+Architectures; Data Fragmentation, Replication and Allocation Techniques
+for Distributed Database Design; Query Processing
+and Optimization in Distributed Databases; Overview of Transaction
+Management in Distributed Databases; Overview of Concurrency Control
+and Recovery in Distributed Databases.
+1,8 6
+7 Object Based Databases
+Overview of Object Database. Concepts; Object-Relational Features;
+Object Database Extensions to SQL; The Object
+Definition Language ODL; Object Database Conceptual Design; The
+Object Query. Language OQL.
+1,2 5
+8 Introduction to Data warehousing
+The Need for Data Warehousing; Increasing Demand for Strategic
+Information; Inability of Past Decision Support System; Operational Vs
+Decisional Support System; 1.3 Data Warehouse Defined; Benefits of Data
+Warehousing ;
+Features of a Data Warehouse; The Information Flow Mechanism; Role of
+Metadata; Classification of Metadata; Data Warehouse Architecture;
+Different Types of Architecture; Data Warehouse and Data Marts; Data
+Warehousing Design Strategies.
+3,4,7 2
+9 Dimensional Modeling
+Data Warehouse Modeling Vs Operational Database Modeling;
+Dimensional Model Vs ER Model; Features of a Good Dimensional
+Model; The Star Schema; How Does a Query Execute? The Snowflake
+Schema; Fact Tables and Dimension Tables. The Fact less Fact Table;
+Updates To Dimension Tables: Slowly Changing
+Dimensions, Type 1 Changes, Type 2 Changes, Type 3 Changes, Large
+Dimension Tables, Rapidly Changing or Large Slowly Changing
+Dimensions, Junk Dimensions, Keys in the Data
+Warehouse Schema, Primary Keys, Surrogate Keys & Foreign Keys;
+Aggregate Tables; Fact Constellation Schema or Families of Star.
+3,4,7 6
+10 ETL Process
+Challenges in ETL Functions; Data Extraction; Identification of Data
+Sources; Extracting Data: Immediate Data Extraction, Deferred Data
+Extraction; Data Transformation: Tasks Involved
+in Data Transformation, Data Loading: Techniques of Data Loading,
+Loading the Fact Tables and Dimension Tables Data Quality; Issues in
+Data Cleansing.
+3,4,7 4
+Sardar Patel Institute of Technology
+Bhavan‟s Campus, Munshi Nagar, Andheri (West), Mumbai-400058-India
+(Autonomous Institute Affiliated to University of Mumbai)
+16
+11 Online Analytical Processing (OLAP)
+Need for Online Analytical Processing; OLTP vs OLAP; OLAP and
+Multidimensional Analysis; Hypercubes; OLAP Operations in
+Multidimensional Data 
