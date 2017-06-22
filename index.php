@@ -27,6 +27,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <style>
+      
       body{
         font-family: 'ABeeZee',serif !important;
       }
@@ -102,6 +103,13 @@
            $('.c2').addClass("animated fadeInUp");
 
         } },
+        {selector: '#Princi', offset: 50, callback: function(el) {
+          //Materialize.toast("This is About Us!", 1500 );
+          $('.c3').removeClass("hide");
+           $('.c3').addClass("animated fadeInUp");
+
+        } },
+
         //what we do
          {selector: '#wwd', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row1 !", 1500 );
@@ -175,6 +183,49 @@
         $('.w2').removeClass("hide");
            $('.w2').addClass("animated fadeInUp");
         } },
+
+        //exhibition
+         {selector: '#Exhibit', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+        $('.ex1').removeClass("hide");
+           $('.ex1').addClass("animated fadeInUp");
+        } },
+         {selector: '.Ex2', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+          $('.ex2').removeClass("hide");
+          $('.ex2').addClass("animated fadeInUp");
+
+        } },
+        {selector: '.Ex3', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+          $('.ex3').removeClass("hide");
+          $('.ex3').addClass("animated fadeInUp");
+          $('.ex3').addClass("animated fadeInUp");
+        } },
+        {selector: '.Ex4', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+          $('.ex4').removeClass("hide");
+          $('.ex4').addClass("animated fadeInUp");
+          $('.ex4').addClass("animated fadeInUp");
+        } },
+
+        //Mass
+        {selector: '#Mass', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+        $('.m1').removeClass("hide");
+           $('.m1').addClass("animated fadeInUp");
+        } },
+        {selector: '.m1', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+        $('.m2').removeClass("hide");
+           $('.m2').addClass("animated fadeInUp");
+        } },
+        {selector: '.m2', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+        $('.m3').removeClass("hide");
+           $('.m3').addClass("animated fadeInUp");
+        } },
+
 
        //sponsors
         {selector: '#Sponsors', offset: 50, callback: function(el) {
@@ -367,12 +418,12 @@ myvid.addEventListener('ended', function(e) {
   <br><br><br>
   <center><h4 class="c2 hide">From the Principal's Desk</h4></center>
   <hr style="width: 5%; color:#98878F;"><br>
-
+  	  <div class="c2 hide">
       <p style="text-align: justify;">
       DJS Skylark is grateful to have the support of SVKM and our Principal. Here is what he has to say about us:<br>
-      “DJS Skylark represents of the techno-entrepreneurial spirit of Dwarkadas J. Sanghvi College of Engineering. An outcome of the grit and hard work of the engineers of tomorrow, this team has made a mark internationally and represents the vigour of the students of a great nation. I wish team DJS Skylark the very best for their future endeavours and vouch for their competence and fidelity.”<br>
+      “DJS Skylark represents of the techno-entrepreneurial spirit of Dwarkadas J. Sanghvi College of Engineering. An outcome of the grit and hard work of the engineers of tomorrow, this team has made a mark internationally and represents the vigour of the students of a great nation. I wish team DJS Skylark the very best for their future endeavours and vouch for their competence and fidelity.”<br></p>
 	<div class="row">
-		<div class="col s12 m6 l6 c2 hide">
+		<div class="col s12 m6 l6 c3 hide">
       <div style="text-align: left;">Dr. Hari Vasudevan<br><br>
       Ph.D (IIT-B) <br>
       M.E. Production Engg. (VJTI) <br>
@@ -381,7 +432,7 @@ myvid.addEventListener('ended', function(e) {
 
       </p>
 		</div>
-		<div class="col s12 m6 l6 c2 hide">
+		<div class="col s12 m6 l6 c3 hide">
 		    <img src="assets/img/principal.jpg" style="height: 240px !important; background-repeat: no-repeat; background-size: cover; padding-top: 0px;">
 		</div>
 	</div>
@@ -458,41 +509,24 @@ myvid.addEventListener('ended', function(e) {
 
     <div class="container">
     <div class="comp2">
-    <div class="row center p2">
-    <div class="col s12 m4 l4">
-    </div>
-    <div class="col s12 m4 l4">
+    <div class="center p2">
       <img src="assets/images/saef.png" height="200px" width="400px">
     </div>
-    <div class="col s12 m4 l4">
-      </div>
     </div><br>
     <div class="row center comp3">
-      <div class="col s12 m2 l2 p3">
-      </div>
-      <div class="col s12 m3 l3 p3">
+      <div class="col s12 m3 l6 p3 center">
         <img src="assets/images/boeingff.png" height="150px" width="300px">
       </div>
-      <div class="col s12 m2 l2 p3">
-      </div>
-      <div class="col s12 m3 l3 p3">
+      <div class="col s12 m3 l6 p3 center">
         <img src="assets/images/lockheedmartinff.png" height="150px" width="300px">
-      </div>
-      <div class="col s12 m2 l2 p3">
       </div>
     </div>
     <div class="row center comp4">
-      <div class="col s12 m2 l2 p4">
-      </div>
-      <div class="col s12 m3 l3 p4">
+      <div class="col s12 m3 l6 p4 center">
         <img src="assets/images/solidworksff.png" height="150px" width="300px">
       </div>
-      <div class="col s12 m2 l2 p4">
-      </div>
-      <div class="col s12 m3 l3 p4">
+      <div class="col s12 m3 l6 p4 center">
         <img src="assets/images/ansysff.png" height="150px" width="300px">
-      </div>
-      <div class="col s12 m2 l2 p4">
       </div>
 
     </div>
@@ -539,7 +573,7 @@ myvid.addEventListener('ended', function(e) {
               </div>
               <div class="çol s12 m1 l1"></div>
               <div class="col s12 m5 l5">
-                <img src="assets/images/Picture9.jpg" height="350px" width="350px">
+                <div class="box"><img src="assets/images/Picture9.jpg" height="350px" width="350px"></div>
               </div>
           </div>
           </div>
@@ -798,46 +832,42 @@ figure.effect-milo:hover p {
 
 </style>
 
+
 <section id="Exhibit">
-<div><center><h3 class="">Exhibition And Events</h3></center></div>
+<div class="Ex1"><center><h3 class="ex1 hide">Exhibition And Events</h3></center></div>
         <hr style="width: 5%; color:#98878F;"><br>
 
-  <div class="container"><p style="font-size: 18px;">DJS Skylark believes in inspiring by setting an example. We leave no opportunity to showcase our aircraft and accolades and make our alma mater as well as our supporters proud. We display our aircraft at several events and exhibitions, including:</p> </div>
-<div class="container" style="margin-left:135px;">
-  <div class="row center">
-    <div class="col s12 m1 l1"></div>
-    <div class="col s12 m4 l4">
+  <div class="container Ex2"><p style="font-size: 18px;" class="ex2 hide">DJS Skylark believes in inspiring by setting an example. We leave no opportunity to showcase our aircraft and accolades and make our alma mater as well as our supporters proud. We display our aircraft at several events and exhibitions, including:</p> </div>
+<div class="container">
+  <div class="row center Ex3">
+    <div class="col s12 m6 l6 center ex3 hide">
     <figure>
       <img src="assets/images/Picture6.jpg" height="240px" width="320px">
       <figcaption style="font-size: 15px;"><p>SVKM Yuva Fest</p></figcaption>
       </figure>
     </div>
-    <div class="col s12 m2 l2"></div>
-    <div class="col s12 m4 l4">
+    <div class="col s12 m6 l6 center ex3 hide">
       <figure>
       <img src="assets/images/Picture5.jpg" height="241px" width="320px">
       <figcaption style="font-size: 15px;"><p>SVKMastermind</p></figcaption>
       </figure>
     </div>
-    <div class="col s12 m1 l1"></div>
+
   </div>
   <br><br>
-  <div class="row center" style="padding-left:0">
-    <div class="col s12 m1 l1"></div>
-    <div class="col s12 m4 l4">
+  <div class="row center">
+    <div class="col s12 m6 l6 ex4 hide">
       <figure>
       <img src="assets/images/Picture1.jpg" height="240px" width="320px">
       <figcaption style="font-size: 15px;"><p>Transform Maharashtra Vision 2025</p></figcaption>
       </figure>
     </div>
-    <div class="col s12 m2 l2"></div>
-    <div class="col s12 m4 l4">
+    <div class="col s12 m6 l6 ex4 hide">
       <figure>
       <img src="assets/images/Picture2.jpg" height="240px" width="320px">
       <figcaption style="font-size: 15px;"><p>World of Skill</p> </figcaption>
       </figure>
     </div>
-    <div class="col s12 m1 l1"></div>
   </div>
 </div><br><br><br><br>
 
@@ -876,20 +906,17 @@ figure.effect-milo:hover p {
 <!--End of exhibition-->
 
 <!--Mass Media-->
-<div id="Mass"><center><h3>Mass Media</h3></center></div>
+<div id="Mass"><center><h3 class="m1 hide">Mass Media</h3></center></div>
         <hr style="width: 5%; color:#98878F;"><br>
-        <div class="container"><div style="font-size: 18px;">DJS Skylark makes its presence felt in the city with the media coverage we attract due to our feats.</div></div><br><br>
-          <div class="container" style="margin-left:135px;">
+        <div class="container"><div style="font-size: 18px;" class="m2 hide">DJS Skylark makes its presence felt in the city with the media coverage we attract due to our feats.</div></div><br><br>
+          <div class="container">
             <div class="row center">
-              <div class="col s12 m2 l2"></div>
-              <div class="col s12 m3 l3">
+              <div class="col s12 m3 l6 center m3 hide">
                 <img src="assets/images/Picture8.jpg" height="300px" width="300px">
               </div>
-              <div class="col s12 m2 l2"></div>
-              <div class="col s12 m3 l3">
+              <div class="col s12 m3 l6 center m3 hide">
                 <img src="assets/images/Picture7.jpg" height="300px" width="300px">
               </div>
-              <div class="col s12 m2 l2"></div>
             </div>
           </div><br><br><br>
   </section>
