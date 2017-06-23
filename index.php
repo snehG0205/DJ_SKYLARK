@@ -30,6 +30,7 @@
       
       body{
         font-family: 'ABeeZee',serif !important;
+        background-color: white !important;
       }
 
       .card{
@@ -203,15 +204,20 @@
         $('.m1').removeClass("hide");
            $('.m1').addClass("animated fadeInUp");
         } },
-        {selector: '.m1', offset: 50, callback: function(el) {
+        {selector: '.mass1', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
         $('.m2').removeClass("hide");
            $('.m2').addClass("animated fadeInUp");
         } },
-        {selector: '.m2', offset: 50, callback: function(el) {
+        {selector: '.mass2', offset: 50, callback: function(el) {
           //Materialize.toast("This is wwd row2 !", 1500 );
-        $('.m3').removeClass("hide");
-           $('.m3').addClass("animated fadeInUp");
+        $('.m13').removeClass("hide");
+           $('.m13').addClass("animated fadeInUp");
+        } },
+        {selector: '.mass3', offset: 50, callback: function(el) {
+          //Materialize.toast("This is wwd row2 !", 1500 );
+        $('.m14').removeClass("hide");
+           $('.m14').addClass("animated fadeInUp");
         } },
 
 
@@ -247,7 +253,7 @@
     </script>
   </head>
 
-  <body class="grey lighten-1">
+  <body style="background-color: white;">
 
 
 <!--Navigation-->
@@ -275,7 +281,7 @@
                 <li><a href="#Princi" class="scroll waves-effect waves-light">From The Principal's Desk</a></li>
               </ul>
 
-         <li><a href="#WWD" class="scroll waves-effect waves-light">What We Do</a></li>
+         <li><a href="#WWD" class="scroll waves-effect waves-light">Strategy</a></li>
          <li><a href="#Comp" class="scroll waves-effect waves-light">Competition</a></li>
 
          <li><a href="#Air" class="scroll waves-effect waves-light">Accolades</a></li>
@@ -300,7 +306,7 @@
          <li><a href="#Home" class="scroll waves-effect waves-light">Home</a></li>
           <li><a href="#Who" class="scroll waves-effect waves-light">Who We Are</a></li>              
           <li><a href="#Princi" class="scroll waves-effect waves-light">From The Principal's Desk</a></li>
-         <li><a href="#WWD" class="scroll waves-effect waves-light">What We Do</a></li>
+         <li><a href="#WWD" class="scroll waves-effect waves-light">Strategy</a></li>
          <li><a href="#Comp" class="scroll waves-effect waves-light">Competition</a></li>
          <li><a href="#Air" class="scroll waves-effect waves-light">Accolades</a></li>
          <li><a href="#Workshop" class="scroll waves-effect waves-light">Workshop</a></li>
@@ -314,7 +320,7 @@
 
    <!-- End Navigation -->
 
-  
+    <div class="white">
    <section id="Home">
    <style>
 
@@ -343,7 +349,7 @@
  
 
 
-    <div class="video-container" id="blabla">
+    <div class="video-container white" id="blabla">
     <video id="myvideo" autoplay class="responsive-video">
   <source class="active" src="assets/video.mp4" type="video/mp4" />
   <source src="assets/stupidvideo.mp4" type="video/mp4" />
@@ -367,38 +373,33 @@ myvid.addEventListener('ended', function(e) {
 </script>
 </div>
 </section>
-
-
-
-<!--Trial About Us-->
-<div id="Who" class="grey">
+</div><!--Trial About Us-->
+<div id="Who" style="background-color: white;">
 <section class="about-w3l" style="background-color: #9e9e9e; height:70%; margin:0 auto;">
-<div id="Who" class="grey">
-	<div class="container ">
- 
-  
-  <div class="row c1 hide center"><h4><b>Who We Are</b></h4>
+<div id="Who" class="white">
+	<div class="container white">
+ <div class="row c1 hide center white"><h4><b>Who We Are</b></h4>
   <hr style="width: 5%; color: #880e4f">
-  <p  class="c1 hide">DJS SKYLARK is one of the country's most proficient aero design team from SVKM's Dwarkadas J. Sanghvi College of Engineering, Mumbai. <br>We fabricate remote controlled aircrafts and compete on an international platform against universities across the globe.
+  <p  class="c1 hide" style="text-align: justify-all;">DJS SKYLARK is one of the country's most proficient aero design team from <br>SVKM's Dwarkadas J. Sanghvi College of Engineering, Mumbai. <br>We fabricate remote controlled aircrafts and compete on an international platform against universities across the globe.
 <br>With accolades to our name, we aim to set an example and promote aerospace engineering by organizing events and workshops for aero enthusiasts in the city.
 </p>
   </div>
-  </div><br><br>
+  </div><br><br><br><br><br><br><br><br>
   </div>
 </section>
 <section class="about-w3l" style="background-color: #bdbdbd;">
-  <div id="Princi" class="grey lighten-1">
+  <div id="Princi" class="black">
   <div class="container">
   <br><br><br>
-  <center><h4 class="c2 hide"><b>From the Principal's Desk</b></h4></center>
+  <center><h4 class="c2 hide white-text"><b>From the Principal's Desk</b></h4></center>
   <hr style="width: 5%; color:#98878F;"><br>
   	  <div class="c2 hide">
-      <p style="text-align: justify;">
+      <p style="text-align: justify;" class="white-text">
       DJS Skylark is grateful to have the support of SVKM and our Principal. Here is what he has to say about us:<br>
-      “DJS Skylark represents of the techno-entrepreneurial spirit of Dwarkadas J. Sanghvi College of Engineering. An outcome of the grit and hard work of the engineers of tomorrow, this team has made a mark internationally and represents the vigour of the students of a great nation. I wish team DJS Skylark the very best for their future endeavours and vouch for their competence and fidelity.”<br></p>
+      “DJS Skylark represents the techno-entrepreneurial spirit of Dwarkadas J. Sanghvi College of Engineering. An outcome of grit and hard work of the engineers of tomorrow, this team has made a mark internationally and represents the vigour of the students of a great nation. I wish team DJS Skylark the very best for their future endeavours and vouch for their competence and fidelity.”<br></p>
 	<div class="row">
 		<div class="col s12 m6 l6 c3 hide">
-      <div style="text-align: left;">Dr. Hari Vasudevan<br><br>
+      <div style="text-align: left;" class="white-text">Dr. Hari Vasudevan<br><br>
       Ph.D (IIT-B) <br>
       M.E. Production Engg. (VJTI) <br>
       Post-Graduate Diploma (VJTI) <br>
@@ -410,14 +411,14 @@ myvid.addEventListener('ended', function(e) {
 		    <img src="assets/img/principal.jpg" style="height: 240px !important; background-repeat: no-repeat; background-size: cover; padding-top: 0px;">
 		</div>
 	</div>
-	</div><br><br><br><br><br>
+	</div>
   </section>
-  </div>
+  </div><br><br><br><br><br><br><br>
 
 <!--What we do-->
 <section id="WWD" style="background-image: url('assets/img/wwd.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
       <br><br><br>
-      <center><h3 style="color:white;"><div class="wwd1 hide"><b>What We Do</b></div></h3></center>
+      <center><h3 style="color:white;"><div class="wwd1 hide"><b>Strategy</b></div></h3></center>
       <hr style="width: 5%; color:#98878F;">
         <div class="container wwd1 hide"><p class="black-text cc0"></p></div>
         <div class="row">
@@ -427,7 +428,7 @@ myvid.addEventListener('ended', function(e) {
               <div class="card grey darken-4">
                 <div class="card-content white-text">
                   <span class="card-title center"><i class="medium material-icons">build</i><br><br>DESIGN</span>
-                  <p>With our thinking caps on, we start off by researching and designing a model of the aircraft, from scratch, using CAD softwares.</p>
+                  <p style="text-align: justify-all;">With our thinking caps on, we start off by researching and designing a model of the aircraft, from scratch, using CAD softwares.</p>
                 </div>
               </div>
             </div>
@@ -435,7 +436,7 @@ myvid.addEventListener('ended', function(e) {
               <div class="card grey darken-4 z-depth-5">
                 <div class="card-content white-text ">
                   <span class="card-title center"><i class="medium material-icons">assessment</i><br><br>ANALYZE</span>
-                  <p>The proposed model is now analysed by subjecting it to real life conditions and making modifications where required.<br><br> </p>
+                  <p style="text-align: justify-all;">The proposed model is now analyzed by subjecting it to real life conditions and making modifications where required.<br><br> </p>
                 </div>
               </div>
             </div>
@@ -446,7 +447,7 @@ myvid.addEventListener('ended', function(e) {
                 <div class="card grey darken-4 z-depth-5">
                   <div class="card-content white-text ">
                     <span class="card-title center"><i class="medium material-icons">perm_data_setting</i><br><br>MANUFACTURE</span>
-                    <p>After we carry out iterations,  the final aircraft design is brought to life using various manufacturing processes.<br><br> </p>
+                    <p style="text-align: justify-all;">After we carry out iterations,  the final aircraft design is brought to life using various manufacturing processes.<br><br> </p>
                   </div>
                 </div>
               </div>
@@ -454,7 +455,7 @@ myvid.addEventListener('ended', function(e) {
                 <div class="card grey darken-4 z-depth-5 cc4">
                   <div class="card-content white-text ">
                     <span class="card-title center"><i class="medium material-icons">flight_takeoff</i><br><br>FLIGHT TEST</span>
-                    <p>It is the moment of truth when the throttle roars as we watch our own aircraft take off from the runway.<br><br></p>
+                    <p style="text-align: justify-all;">It is the moment of truth when the throttle roars as we watch our own aircraft take off from the runway.<br><br></p>
                   </div>
                 </div>
               </div>
@@ -468,24 +469,24 @@ myvid.addEventListener('ended', function(e) {
     <!-- End What we do -->
 
     <!-- Competitions -->
-  <section id="Comp" class="grey lighten-1">
+  <section id="Comp" class="white">
   <br><br><br>
-    <div class="comp1 cmp1 hide"><center><h3 class="p1"><b>Competition-SAE Aerodesign</b></h3></center></div>
+    <div class="comp1 cmp1 hide"><center><h3 class="p1"><b>Competitions</b></h3></center></div>
         <hr style="width: 5%; color:#98878F;"><br>
 
              <div class="container  cmp1 hide">
 
     <div class="row comp5">
-    <p class="p5 black-text" style="font-size: 18px; text-align: center ">Studying, analyzing, improvising, testing and fabricating aircrafts is not where we stop. We at DJS SKYLARK are always up for the most grueling challenges. We leave no opportunity to display our strife to excellence through competitions, in the anticipation to inspire through our victories.<br>
-    SAE Aero Design Competition<br>
-    This contest intends to provide a real life challenge to engineering students by exposing them to situations faced in a professional environment. It is annually conducted in the USA, attracting 75 competition teams from renowned universities across the globe. It is a platform for young minds to display their innovation and exchange ideas. Amidst these creative creations, we aim to compete by building something a class apart.
+    <p class="p5 black-text" style="font-size: 18px; text-align: center ">Studying, analyzing, improvising, testing and fabricating aircrafts is not where we stop. We at DJS SKYLARK are always up for the most grueling challenges. We leave no opportunity to display our strife to excellence through competitions, in the anticipation to inspire through our victories.<br><br>
+    <u><a href="https://www.saeaerodesign.com/" target="_blank">SAE Aero Design Competition</a></u><br>
+    This contest intends to provide a real life challenge to engineering students by exposing them to situations faced in a professional environment. It is annually conducted in the USA, attracting 75 competiting teams from renowned universities across the globe. It is a platform for young minds to display their innovation and exchange ideas. Amidst these creative creations, we aim to compete by building something a class apart.
     </p>
     </div></div>
 
     <div class="container">
     <div class="comp2">
     <div class="center p2">
-      <img src="assets/images/saef.png" height="200px" width="400px">
+      <a href="https://www.saeaerodesign.com/" target="_blank"><img src="assets/images/saef.png" height="200px" width="400px"></a>
     </div>
     </div><br>
     <div class="row center comp3">
@@ -514,8 +515,8 @@ myvid.addEventListener('ended', function(e) {
     <!-- End Competitions -->
 
     <!--Accolades-->
+    <div class="black">
     <section id="Air">
-    <div class="grey">
     <br><br><br>
 
     <script>
@@ -526,7 +527,7 @@ myvid.addEventListener('ended', function(e) {
       });
     </script>
 
-        <div class="air1 a1 hide"><center><h3 class="a1"><b>Accolades</b></h3></center></div>
+        <div class="air1 a1 hide white-text"><center><h3 class="a1"><b>Accolades</b></h3></center></div>
           <hr style="width: 5%; color:#98878F;">
           <br>
 
@@ -542,9 +543,9 @@ myvid.addEventListener('ended', function(e) {
             <!-- Modal Structure 1 -->
             <div id="modal1" class="modal" style="background-color: rgba(0,0,0,0.75) !important; border-radius: 20px;">
               <div class="modal-content white-text">
-                <h4>SAE-Aerodesign 2017</h4>
+                <h4>SAE Aero Design 2017</h4>
                 <div class="row">
-                  <div class="col s12 m6 l6">DJS Skylark carved a niche on an international platform by being bestowed with the 1st prize in Design Report Worldwide, 4th Overall Worldwide apart from being 1st in Asia-Pacific regions.</div>
+                  <div class="col s12 m6 l6">DJS Skylark carved a niche on an international platform by being bestowed with the 1st prize in Design Report Worldwide, 4th Overall Worldwide apart from being 1st in Asia-Pacific.</div>
                   <div class="col s12 m6 l6"><img class="responsive" src="assets/images/Picture9.jpg" ></div>
                 </div>
               </div>
@@ -553,7 +554,7 @@ myvid.addEventListener('ended', function(e) {
              <!-- Modal Structure 2 -->
             <div id="modal2" class="modal" style="background-color: rgba(0,0,0,0.75) !important; border-radius: 20px;">
               <div class="modal-content white-text">
-                <h4>SAE-Aerodesign 2016</h4>
+                <h4>SAE Aero Design 2016</h4>
                 <div class="row">
                   <div class="col s12 m6 l6">In the second attempt at the competition, our performance was improvised, with not only a rank in the top 20 all across the globe, but also an award for the 3rd place in presentation worldwide.</div>
                   <div class="col s12 m6 l6"><img class="responsive" src="assets/images/Picture12.jpg" ></div>
@@ -564,25 +565,25 @@ myvid.addEventListener('ended', function(e) {
              <!-- Modal Structure 3 -->
             <div id="modal3" class="modal" style="background-color: rgba(0,0,0,0.75) !important; border-radius: 20px;">
               <div class="modal-content white-text">
-                <h4>SAE-Aerodesign 2015</h4>
+                <h4>SAE Aero Design 2015</h4>
                 <div class="row">
-                  <div class="col s12 m6 l6"> The team had its first breakthrough by securing a rank of 17th in the world, in its debut year, against the likes of top universities, in SAE Aero Design West competition, held in Florida.</div>
+                  <div class="col s12 m6 l6"> The team had its first breakthrough by securing a rank of 17 in the world, in its debut year, against the likes of top universities, in SAE Aero Design West competition, held in Florida.</div>
                   <div class="col s12 m6 l6"><img class="responsive" src="assets/images/andar3.jpg" ></div>
                 </div>
               </div>
             </div>
-            </div>
             </section>
+            </div>
 <!--End of aircrafts-->
 
 
 <!--Workshop-->
-
 <div style="background-image: url(assets/images/work.JPG); background-attachment: fixed; background-repeat: no-repeat; background-size: cover;">
+
 <section class="main" id="Workshop">
 <div style="background-color: rgba(0,0,0,0.3);">
 <br><br><br>
-  <div class="Work1 w1"><center><h3 class="a1"><b>Aero-Modelling Workshop</b></h3></center></div>
+  <div class="Work1 w1"><center><h3 class="a1 white-text"><b>Aero-Modelling Workshop</b></h3></center></div>
   <hr style="width:5%; color: #98878F;">
   <br>
     <div class="container work2">
@@ -595,12 +596,12 @@ myvid.addEventListener('ended', function(e) {
       <div class="col s12 m1 l1">
       </div>
       <div class="col s12 m6 l6">
-        <p class="black-text" style="font-size: 18px;">Our goal at DJS Skylark is not only to achieve perfection ourselves but to inspire learners driven with curiosity and determination. We achieve this goal by pouring our knowledge into the minds of keen students and assist them to create their own invention. DJS Skylark annually conducts an Aero Modelling workshop in DJSCE for undergraduate students.</p>
+        <p class="white-text" style="font-size: 18px;">Our goal at DJS Skylark is not only to achieve perfection ourselves but to inspire learners driven with curiosity and determination. We achieve this goal by pouring our knowledge into the minds of keen students and assist them to create their own invention. DJS Skylark annually conducts an Aero Modelling workshop in DJSCE for undergraduate students.</p>
       </div>
     </div>
     <div class="row center w2">
       <div class="col s12 m6 l6">
-        <p class="black-text" style="font-size: 18px;">We organise a large scale 3-Day annual (200+ Students ) workshop for young aero enthusiasts in the city. The three day workshop provides an opportunity to learn about:<br> <div style="text-align: left;font-size: 18px;"><span style="color:#006064"><b>Technical aspects</b></span> of fabricating an RC aircraft and the designing and analysis behind it.<br><span style="color:#006064"><b>Manufacturing</b></span> process involved.<br><span style="color:#006064"><b>Flight testing</b></span> their own aircrafts to assess their performance.</div></p>
+        <p class="white-text" style="font-size: 18px; text-align: justify;">This three day certified course attracts over 200 students annually from the city. It aims at aiding students to create their own RC airplane from scratch. We give you an opportunity to learn:<br> <div class="white-text" style="text-align: left;font-size: 18px;"><b>Technical aspects</b> and designing procedure of an RC aircraft<br><b>Manufacturing process</b> involved in fabricating the model<br><b>Flight testing</b> the aircrafts to assess its performance.</div></p>
       </div>
       <div class="col s12 m1 l1">
       </div>
@@ -619,7 +620,7 @@ myvid.addEventListener('ended', function(e) {
 <!--Exhibition-->
 
 <section id="Exhibit">
-<div class="grey"><br><br>
+<div class="white"><br><br>
 <div class="Ex1"><center><h3 class="ex1 hide"><b>Exhibition And Events</b></h3></center></div>
         <hr style="width: 5%; color:#98878F;"><br>
 
@@ -651,7 +652,7 @@ myvid.addEventListener('ended', function(e) {
     <div class="col s12 m6 l6 ex4 hide">
       <figure>
       <img src="assets/images/Picture2.jpg" height="240px" width="320px">
-      <figcaption style="font-size: 15px;"><p>World of Skill</p> </figcaption>
+      <figcaption style="font-size: 15px;"><p>Interaction with the CM</p> </figcaption>
       </figure>
     </div>
   </div>
@@ -660,26 +661,35 @@ myvid.addEventListener('ended', function(e) {
 <!--End of exhibition-->
 
 <!--Mass Media-->
+<div class="black white-text"><br>
 <div id="Mass"><center><h3 class="m1 hide"><b>Mass Media</b></h3></center></div>
         <hr style="width: 5%; color:#98878F;"><br>
-        <div class="container"><div style="font-size: 18px;" class="m2 hide">DJS Skylark makes its presence felt in the city with the media coverage we attract due to our feats.</div></div><br><br>
+        <div class="container mass1"><div style="font-size: 18px;" class="m2 hide">DJS Skylark makes its presence felt in the city with the media coverage we attract due to our feats.</div></div><br><br>
           <div class="container">
-            <div class="row center">
-              <div class="col s12 m3 l6 center m3 hide">
-                <img src="assets/images/Picture8.jpg" height="300px" width="300px">
+            <div class="row center mass2">
+              <div class="col s12 m3 l6 center m13 hide">
+                <img src="assets/images/np1.jpg" height="300px" width="300px">
               </div>
-              <div class="col s12 m3 l6 center m3 hide">
-                <img src="assets/images/Picture7.jpg" height="300px" width="300px">
+              <div class="col s12 m3 l6 center m13 hide">
+                <img src="assets/images/np2.PNG" height="300px" width="300px">
+              </div>
+            </div>          
+            <div class="row center mass3">
+              <div class="col s12 m3 l6 center m14 hide">
+                <img src="assets/images/np3.PNG" height="300px" width="300px">
+              </div>
+              <div class="col s12 m3 l6 center m14 hide">
+                <img src="assets/images/np4.PNG" height="300px" width="300px">
               </div>
             </div>
-          </div><br><br><br>
+          </div><br><br><br></div>
           </div>
   </section>
 
 <!--End of mass media-->
 
 <!-- Sponsors -->
-    <div class="grey lighten-1">
+    <div class="white">
     <style type="text/css">
                 li {
           list-style: none;
@@ -726,10 +736,10 @@ myvid.addEventListener('ended', function(e) {
               <ul class="center">
                 <li><a href="www.google.com"><img src="assets/images/svkm.PNG" height="150px" width="150px"></a></li>
                 <li><img src="assets/images/dj.PNG" height="150px" width="150px"></li>
+                <li><img src="assets/images/sw1.jpg" height="150px" width="150px"></li>
+                <!--<li><img src="http://placehold.it/100x100" height="150px" width="150px"></li>
                 <li><img src="http://placehold.it/100x100" height="150px" width="150px"></li>
-                <li><img src="http://placehold.it/100x100" height="150px" width="150px"></li>
-                <li><img src="http://placehold.it/100x100" height="150px" width="150px"></li>
-                <li><img src="http://placehold.it/100x100" height="150px" width="150px"></li>
+                <li><img src="http://placehold.it/100x100" height="150px" width="150px"></li>-->
               </ul>
             </div><br><br><br><br><br>
             </div>
@@ -768,7 +778,7 @@ myvid.addEventListener('ended', function(e) {
 
 
     <!--Trial Teams-->
-    <div class="grey">
+    <div class="white">
      <section class="main" id="Team">
 <!--<div class="grey lighten-1">--> 
 <br><br>
@@ -839,11 +849,11 @@ myvid.addEventListener('ended', function(e) {
                   <h5>Dwarkadas.J.Sanghvi College of Engineering</h5></div>
                   <br><br>
                   <div class="row"><i class="fa fa-phone left" style="font-size: 30px;"></i>
-                  <h5>62434677584</h5></div>
+                  <h5>+91 9833485544</h5></div>
                   <br><br>
                   <div class="row">
                   <i class="material-icons left" style="font-size:30px;">mail</i>
-                  <h5>skylark.mihir@gmail.com</h5>
+                  <h5>djs.skylark@gmail.com</h5>
                   </div>
                 </div>
               </div>
@@ -872,16 +882,15 @@ myvid.addEventListener('ended', function(e) {
             <div class="row">
               <div class="col l5 s12">
                 <h5 class="white-text">Onwards & Upwards</h5>
-                <img src="assets/images/skylogo2.PNG" height="65px" width="180px" >
+                <img src="assets/images/skylogo2.PNG" height="65px" width="180px" style="margin-left:30px;">
                 <p class="grey-text text-lighten-4"></p>
               </div>
               <div class="col l5 offset-l2 s12">
                 <h5 class="white-text">Follow Us</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook-square" style="font-size: 36px; padding-right: 3px;"></i></a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter-square" style="font-size: 36px; padding-right: 3px;"></i></a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-instagram" style="font-size: 36px; padding-right: 3px;"></i></a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-google-plus-square" style="font-size: 36px; padding-right: 3px;"></i></a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/djsskylark/" target="_blank"><i class="fa fa-facebook-square" style="font-size: 36px; padding-right: 3px;"></i></a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://twitter.com/djsskylark" target="_blank"><i class="fa fa-twitter-square" style="font-size: 36px; padding-right: 3px;"></i></a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/djsskylark/" target="_blank"><i class="fa fa-instagram" style="font-size: 36px; padding-right: 3px;"></i></a></li>
                 </ul>
               </div>
             </div>
