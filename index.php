@@ -73,22 +73,10 @@
         display: inline;
       }
 
-      i:hover{
-        color: black;
-      }
+
 
 
     </style>
-    <script type="text/javascript">
-          var options = [
-        {selector: '.class', offset: 200, callback: customCallbackFunc },
-        {selector: '.other-class', offset: 200, callback: function() {
-          customCallbackFunc();
-        } },
-      ];
-      Materialize.scrollFire(options);
-
-    </script>
     <script type="text/javascript">
         var options = [
         {selector: '.about-w3l', offset: 50, callback: function(el) {
@@ -271,8 +259,8 @@
     </script>
 
 
-    <div class="navbar-fixed" id="navv">
-    <nav id="navbar">
+    <div id="navv">
+    <nav id="navbar" class="navbar-fixed fixed" style="position: fixed !important;">
      <div class="nav-wrapper">
        <a href="#!" class="brand-logo"><img src="assets/images/skylogo2.PNG" height="65px" width="180px" style="padding-top:0px; padding-left:0; margin-top:0px;align="left"></a>
        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">dehaze</i></a>
@@ -305,7 +293,10 @@
        </ul>
 
 
-       <ul class="side-nav" id="mobile-demo">
+      
+     </div>
+   </nav>
+    <ul class="side-nav" id="mobile-demo">
          <li><a href="#Home" class="scroll waves-effect waves-light">Home</a></li>
           <li><a href="#Who" class="scroll waves-effect waves-light">Who We Are</a></li>              
           <li><a href="#Princi" class="scroll waves-effect waves-light">From The Principal's Desk</a></li>
@@ -320,8 +311,7 @@
          <li><a href="#Contact" class="scroll waves-effect waves-light">Contact Us</a></li>
        </ul>
      </div>
-   </nav>
-     </div>
+
    <!-- End Navigation -->
 
   
@@ -332,7 +322,7 @@
       /*position:absolute;*/
       top:0;
       bottom:0;
-      height:70% !important;
+      height:100% !important;
       width:100%;
       min-width:100%;
       min-height:70% !important;
@@ -341,11 +331,11 @@
     }
     .video-container video{
       min-width:100%;
-      min-height:0% !important;
+      min-height:100% !important;
       width:auto;
       height:auto;
       position:absolute;
-      top:35%;
+      top:50%;
       left:50%;
       transform: translate(-50%,-50%);
     }
@@ -353,7 +343,7 @@
  
 
 
-    <div class="video-container" id="blabla" style="background-color:#9e9e9e; min-height:70%;">
+    <div class="video-container" id="blabla">
     <video id="myvideo" autoplay class="responsive-video">
   <source class="active" src="assets/video.mp4" type="video/mp4" />
   <source src="assets/stupidvideo.mp4" type="video/mp4" />
@@ -381,6 +371,7 @@ myvid.addEventListener('ended', function(e) {
 
 
 <!--Trial About Us-->
+<div id="Who" class="grey">
 <section class="about-w3l" style="background-color: #9e9e9e; height:70%; margin:0 auto;">
 <div id="Who" class="grey">
 	<div class="container ">
@@ -420,7 +411,8 @@ myvid.addEventListener('ended', function(e) {
 		</div>
 	</div>
 	</div><br><br><br><br><br>
-  </div></section>
+  </section>
+  </div>
 
 <!--What we do-->
 <section id="WWD" style="background-image: url('assets/img/wwd.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
@@ -521,7 +513,6 @@ myvid.addEventListener('ended', function(e) {
 
     <!-- End Competitions -->
 
-
     <!--Accolades-->
     <section id="Air">
     <div class="grey">
@@ -538,70 +529,50 @@ myvid.addEventListener('ended', function(e) {
         <div class="air1 a1 hide"><center><h3 class="a1"><b>Accolades</b></h3></center></div>
           <hr style="width: 5%; color:#98878F;">
           <br>
-           <div class="container">
-    <div class="row center air2">
-      <!--<div class="col s12 m1 l1 a2">
-      </div>-->
-      <div class="col s12 m4 l4">
-        <div class="a2"><a href="#modal1"><img src="assets/images/3.JPG" height="300px" width="300px"></a></div>
-          <div id="modal1" class="modal" style="background-color: rgba(0,0,0,0.75) !important;overflow: hidden !important; border-radius: 20px;">
-          <div class="modal-content white-text">
-          <h4>SAE-Aerodesign 2017</h4>
-              <div class="row center">
-              <div class="col s12 m6 l6">
-                <p style="margin-top: 100px;">
-                DJS Skylark carved a niche on an international platform by being bestowed with the 1st prize in Design Report Worldwide, 4th Overall Worldwide apart from being 1st in Asia-Pacific regions.</p>
-              </div>
-              <div class="çol s12 m1 l1"></div>
-              <div class="col s12 m5 l5">
-                <div class="box"><img src="assets/images/Picture9.jpg" height="350px" width="350px"></div>
-              </div>
-          </div>
-          </div>
-      </div>
-      </div>
-      <!--<div class="col s12 m1 l1 a2">
-      </div>-->
-      <div class="col s12 m4 l4">
-       <div class="a2"><a href="#modal2"><img src="assets/images/bahar2.jpg" height="300px" width="300px"></a></div>
-          <div id="modal2" class="modal" style="background-color: rgba(0,0,0,0.75) !important;overflow: hidden !important; border-radius: 20px;">
-          <div class="modal-content white-text">
-          <h4>SAE-Aerodesign 2016</h4>
-              <div class="row center">
-              <div class="col s12 m6 l6">
-                <p style="margin-top: 100px;">In the second attempt at the competition, our performance was improvised, with not only a rank in the top 20 all across the globe, but also an award for the 3rd place in presentation worldwide.</p>
-              </div>
-              <div class="çol s12 m1 l1"></div>
-               <div class="col s12 m5 l5">
-                <img src="assets/images/Picture12.jpg" height="350px" width="350px">
-          </div>
-          </div>
-          </div>
-      </div>
-      </div>
-      <!--<div class="col s12 m1 l1 a2">
-      </div>-->
-      <div class="col s12 m4 l4">
-     <div class="a2"><a href="#modal3"><img src="assets/images/bahar3.jpg" height="300px" width="300px"></a></div>
-          <div id="modal3" class="modal" style="background-color: rgba(0,0,0,0.75) !important;overflow: hidden !important; border-radius: 20px;">
-          <div class="modal-content white-text" >
-          <h4>SAE-Aerodesign 2015</h4>
-          <div class="row center">
-          <div class="col s12 m6 l6">
 
-                <p style="margin-top: 100px;">
-          The team had its first breakthrough by securing a rank of 17th in the world, in its debut year, against the likes of top universities, in SAE Aero Design West competition, held in Florida.</p>
+          <!-- Modal Trigger -->
+          <div class="container">
+            <div class="row air2">
+              <div class="col s8 m4 l4 offset-s2 a2" style="padding-bottom: 5%;"><a href="#modal1"><img src="assets/images/3.JPG" height="300px" width="300px"></a></div>
+              <div class="col s8 m4 l4 offset-s2 a2" style="padding-bottom: 5%;"><a href="#modal2"><img src="assets/images/bahar2.jpg" height="300px" width="300px"></a></div>
+              <div class="col s8 m4 l4 offset-s2 a2" style="padding-bottom: 5%;"><a href="#modal3"><img src="assets/images/bahar3.jpg" height="300px" width="300px"></a></div>
+            </div>
+          </div>
             
-          </div>
-          <div class="çol s12 m1 l1"></div>
-          <div class="col s12 m5 l5">
-                <img src="assets/images/andar3.jpg" height="350px" width="350px">
-          </div>
-          </div>
-    </div><br><br><br><br><br><br><br><br>
-    </div><br><br><br><br><br><br><br><br><br><br>
-</div>
-      </section>
+            <!-- Modal Structure 1 -->
+            <div id="modal1" class="modal" style="background-color: rgba(0,0,0,0.75) !important; border-radius: 20px;">
+              <div class="modal-content white-text">
+                <h4>SAE-Aerodesign 2017</h4>
+                <div class="row">
+                  <div class="col s12 m6 l6">DJS Skylark carved a niche on an international platform by being bestowed with the 1st prize in Design Report Worldwide, 4th Overall Worldwide apart from being 1st in Asia-Pacific regions.</div>
+                  <div class="col s12 m6 l6"><img class="responsive" src="assets/images/Picture9.jpg" ></div>
+                </div>
+              </div>
+            </div>
+
+             <!-- Modal Structure 2 -->
+            <div id="modal2" class="modal" style="background-color: rgba(0,0,0,0.75) !important; border-radius: 20px;">
+              <div class="modal-content white-text">
+                <h4>SAE-Aerodesign 2016</h4>
+                <div class="row">
+                  <div class="col s12 m6 l6">In the second attempt at the competition, our performance was improvised, with not only a rank in the top 20 all across the globe, but also an award for the 3rd place in presentation worldwide.</div>
+                  <div class="col s12 m6 l6"><img class="responsive" src="assets/images/Picture12.jpg" ></div>
+                </div>
+              </div>
+            </div>
+
+             <!-- Modal Structure 3 -->
+            <div id="modal3" class="modal" style="background-color: rgba(0,0,0,0.75) !important; border-radius: 20px;">
+              <div class="modal-content white-text">
+                <h4>SAE-Aerodesign 2015</h4>
+                <div class="row">
+                  <div class="col s12 m6 l6"> The team had its first breakthrough by securing a rank of 17th in the world, in its debut year, against the likes of top universities, in SAE Aero Design West competition, held in Florida.</div>
+                  <div class="col s12 m6 l6"><img class="responsive" src="assets/images/andar3.jpg" ></div>
+                </div>
+              </div>
+            </div>
+            </div>
+            </section>
 <!--End of aircrafts-->
 
 
