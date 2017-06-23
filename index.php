@@ -310,7 +310,7 @@
          <li><a href="#Comp" class="scroll waves-effect waves-light">Competition</a></li>
          <li><a href="#Air" class="scroll waves-effect waves-light">Accolades</a></li>
          <li><a href="#Workshop" class="scroll waves-effect waves-light">Workshop</a></li>
-          <li><a href="#Exhibit" class="scroll waves-effect waves-light">Exhibition</a></li>
+          <li><a href="#Exhibit" class="scroll waves-effect waves-light">Exhibition & Events</a></li>
           <li><a href="#Mass" class="scroll waves-effect waves-light">Mass Media</a></li>
          <li><a href="#Sponsors" class="scroll waves-effect waves-light">Sponsors</a></li>
          <li><a href="#Team" class="scroll waves-effect waves-light">Team</a></li>
@@ -333,7 +333,7 @@
       min-width:100%;
       min-height:70% !important;
       overflow:hidden;
-      background-color: black;
+      background-color: black !important;
     }
     .video-container video{
       min-width:100%;
@@ -373,37 +373,43 @@ myvid.addEventListener('ended', function(e) {
 </script>
 </div>
 </section>
-</div><!--Trial About Us-->
-<div id="Who" style="background-color: white;">
-<section class="about-w3l" style="background-color: #9e9e9e; height:70%; margin:0 auto;">
+</div>
+
+<!--Trial About Us-->
+<section class="about-w3l" style="background-color:white; margin:0 auto;">
+<br><br><br><br>
 <div id="Who" class="white">
 	<div class="container white">
- <div class="row c1 hide center white"><h4><b>Who We Are</b></h4>
+  <br><br>
+ <div class="row c1 hide center"><h4><b>Who We Are</b></h4>
   <hr style="width: 5%; color: #880e4f">
-  <p  class="c1 hide" style="text-align: justify-all;">DJS SKYLARK is one of the country's most proficient aero design team from <br>SVKM's Dwarkadas J. Sanghvi College of Engineering, Mumbai. <br>We fabricate remote controlled aircrafts and compete on an international platform against universities across the globe.
+  <b><p  class="c1 hide" style="text-align: justify-all;">DJS SKYLARK is one of the country's most proficient aero design team from <br>SVKM's Dwarkadas J. Sanghvi College of Engineering, Mumbai. <br>We fabricate remote controlled aircrafts and compete on an international platform against universities across the globe.
 <br>With accolades to our name, we aim to set an example and promote aerospace engineering by organizing events and workshops for aero enthusiasts in the city.
-</p>
+</p></b>
   </div>
-  </div><br><br><br><br><br><br><br><br>
+  <br><br><br>
+  </div>
+  
   </div>
 </section>
-<section class="about-w3l" style="background-color: #bdbdbd;">
+
+<section class="about-w3l" style="background-color:black;">
   <div id="Princi" class="black">
   <div class="container">
-  <br><br><br>
+  <br><br>
   <center><h4 class="c2 hide white-text"><b>From the Principal's Desk</b></h4></center>
-  <hr style="width: 5%; color:#98878F;"><br>
+  <hr style="width: 5%; color:black;"><br>
   	  <div class="c2 hide">
-      <p style="text-align: justify;" class="white-text">
+      <b><p style="text-align: justify;" class="white-text">
       DJS Skylark is grateful to have the support of SVKM and our Principal. Here is what he has to say about us:<br>
-      “DJS Skylark represents the techno-entrepreneurial spirit of Dwarkadas J. Sanghvi College of Engineering. An outcome of grit and hard work of the engineers of tomorrow, this team has made a mark internationally and represents the vigour of the students of a great nation. I wish team DJS Skylark the very best for their future endeavours and vouch for their competence and fidelity.”<br></p>
+      “DJS Skylark represents the techno-entrepreneurial spirit of Dwarkadas J. Sanghvi College of Engineering. An outcome of grit and hard work of the engineers of tomorrow, this team has made a mark internationally and represents the vigour of the students of a great nation. I wish team DJS Skylark the very best for their future endeavours and vouch for their competence and fidelity.”<br></p></b>
 	<div class="row">
 		<div class="col s12 m6 l6 c3 hide">
-      <div style="text-align: left;" class="white-text">Dr. Hari Vasudevan<br><br>
+      <div style="text-align: left;" class="white-text"><b>Dr. Hari Vasudevan<br><br>
       Ph.D (IIT-B) <br>
       M.E. Production Engg. (VJTI) <br>
       Post-Graduate Diploma (VJTI) <br>
-      B.E. Industrial Production (GIT)<br></div>
+      B.E. Industrial Production (GIT)</b><br></div>
 
       </p>
 		</div>
@@ -413,7 +419,7 @@ myvid.addEventListener('ended', function(e) {
 	</div>
 	</div>
   </section>
-  </div><br><br><br><br><br><br><br>
+  </div>
 
 <!--What we do-->
 <section id="WWD" style="background-image: url('assets/img/wwd.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
@@ -515,6 +521,11 @@ myvid.addEventListener('ended', function(e) {
     <!-- End Competitions -->
 
     <!--Accolades-->
+    <style type="text/css">
+      .a2 img:hover{
+        opacity: 0.5;
+      }
+    </style>
     <div class="black">
     <section id="Air">
     <br><br><br>
@@ -578,9 +589,8 @@ myvid.addEventListener('ended', function(e) {
 
 
 <!--Workshop-->
-<div style="background-image: url(assets/images/work.JPG); background-attachment: fixed; background-repeat: no-repeat; background-size: cover;">
-
 <section class="main" id="Workshop">
+<div style="background-image: url(assets/images/work.JPG); background-attachment: fixed; background-repeat: no-repeat; background-size: cover;">
 <div style="background-color: rgba(0,0,0,0.3);">
 <br><br><br>
   <div class="Work1 w1"><center><h3 class="a1 white-text"><b>Aero-Modelling Workshop</b></h3></center></div>
@@ -639,7 +649,6 @@ myvid.addEventListener('ended', function(e) {
       <figcaption style="font-size: 15px;"><p>SVKMastermind</p></figcaption>
       </figure>
     </div>
-
   </div>
   <br><br>
   <div class="row center Ex4">
@@ -667,22 +676,22 @@ myvid.addEventListener('ended', function(e) {
         <div class="container mass1"><div style="font-size: 18px;" class="m2 hide">DJS Skylark makes its presence felt in the city with the media coverage we attract due to our feats.</div></div><br><br>
           <div class="container">
             <div class="row center mass2">
-              <div class="col s12 m3 l6 center m13 hide">
+              <div class="col s12 m6 l6 center m13 hide">
                 <img src="assets/images/np1.jpg" height="300px" width="300px">
               </div>
-              <div class="col s12 m3 l6 center m13 hide">
+              <div class="col s12 m6 l6 center m13 hide">
                 <img src="assets/images/np2.PNG" height="300px" width="300px">
               </div>
             </div>          
             <div class="row center mass3">
-              <div class="col s12 m3 l6 center m14 hide">
+              <div class="col s12 m6 l6 center m14 hide">
                 <img src="assets/images/np3.PNG" height="300px" width="300px">
               </div>
-              <div class="col s12 m3 l6 center m14 hide">
+              <div class="col s12 m6 l6 center m14 hide">
                 <img src="assets/images/np4.PNG" height="300px" width="300px">
               </div>
             </div>
-          </div><br><br><br></div>
+          </div><br><br><br>
           </div>
   </section>
 
@@ -778,11 +787,10 @@ myvid.addEventListener('ended', function(e) {
 
 
     <!--Trial Teams-->
-    <div class="white">
+    <div class="black">
      <section class="main" id="Team">
-<!--<div class="grey lighten-1">--> 
 <br><br>
-           <div class="Team"><center><h3 class="t1"><b>The Team</b></h3></center>
+           <div class="Team"><center><h3 class="t1 white-text"><b>The Team</b></h3></center>
              <hr style="width: 5%; color:#98878F;"><br><br>
             <div class="container team1 t2">
             <img src="assets/images/desk.jpg" height="100%" width="100%">
@@ -790,12 +798,12 @@ myvid.addEventListener('ended', function(e) {
             <br><br>
              <div>
           </section>
-</div>
+    </div>
 
 <!--End of teams-->
 
     
-    <!-- COntact  -->
+    <!-- Contact  -->
     <section id="Contact" class="grey lighten-1">
     <div class="row con hide">
     <br><br>
@@ -953,7 +961,6 @@ myvid.addEventListener('ended', function(e) {
 
     //Logo Slider
 
-    //Logo Slider
 
 /*
 
@@ -1046,8 +1053,8 @@ $(window).load(function(){
   });
 });
 
-//dropdown
 
+/*Dropdown*/
 $('.dropdown-button').dropdown({
       inDuration: 300,
       outDuration: 225,
@@ -1059,6 +1066,7 @@ $('.dropdown-button').dropdown({
       stopPropagation: false // Stops event propagation
     }
   );
+/*End*/
 
     </script>
   </body>

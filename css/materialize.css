@@ -7125,6 +7125,8 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .side-nav {
+  background-color: rgba(192,192,192,0.8) !important;
+  color: white !important;
   position: fixed;
   width: 300px;
   left: 0;
