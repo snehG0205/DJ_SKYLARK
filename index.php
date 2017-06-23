@@ -44,7 +44,7 @@
       }
 
 
-      	section.about-w3l h2 {
+      section.about-w3l h2 {
       	text-align:center;
       	padding:0 0 30px;
       }
@@ -262,8 +262,7 @@
   <body class="grey lighten-1">
 
 
-   <!--Navigation-->
-
+<!--Navigation-->
 <script type="text/javascript">
       $( document ).ready(function(){
         $(".button-collapse").sideNav();
@@ -327,7 +326,6 @@
 
   
    <section id="Home">
-
    <style>
 
     .video-container{
@@ -388,7 +386,7 @@ myvid.addEventListener('ended', function(e) {
 	<div class="container ">
  
   
-  <div class="row c1 hide center"><h4>Who We Are</h4>
+  <div class="row c1 hide center"><h4><b>Who We Are</b></h4>
   <hr style="width: 5%; color: #880e4f">
   <p  class="c1 hide">DJS SKYLARK is one of the country's most proficient aero design team from SVKM's Dwarkadas J. Sanghvi College of Engineering, Mumbai. <br>We fabricate remote controlled aircrafts and compete on an international platform against universities across the globe.
 <br>With accolades to our name, we aim to set an example and promote aerospace engineering by organizing events and workshops for aero enthusiasts in the city.
@@ -401,7 +399,7 @@ myvid.addEventListener('ended', function(e) {
   <div id="Princi" class="grey lighten-1">
   <div class="container">
   <br><br><br>
-  <center><h4 class="c2 hide">From the Principal's Desk</h4></center>
+  <center><h4 class="c2 hide"><b>From the Principal's Desk</b></h4></center>
   <hr style="width: 5%; color:#98878F;"><br>
   	  <div class="c2 hide">
       <p style="text-align: justify;">
@@ -480,16 +478,16 @@ myvid.addEventListener('ended', function(e) {
     <!-- Competitions -->
   <section id="Comp" class="grey lighten-1">
   <br><br><br>
-    <div class="comp1 cmp1 hide"><center><h3 class="p1">Competition-SAE Aerodesign</h3></center></div>
+    <div class="comp1 cmp1 hide"><center><h3 class="p1"><b>Competition-SAE Aerodesign</b></h3></center></div>
         <hr style="width: 5%; color:#98878F;"><br>
 
              <div class="container  cmp1 hide">
 
     <div class="row comp5">
-    <p class="p5" style="font-size: 18px; text-align: center ">Studying, analyzing, improvising, testing and fabricating aircrafts is not where we stop. We at DJS SKYLARK are always up for the most grueling challenges. We leave no opportunity to display our strife to excellence through competitions, in the anticipation to inspire through our victories.<br>
+    <p class="p5 black-text" style="font-size: 18px; text-align: center ">Studying, analyzing, improvising, testing and fabricating aircrafts is not where we stop. We at DJS SKYLARK are always up for the most grueling challenges. We leave no opportunity to display our strife to excellence through competitions, in the anticipation to inspire through our victories.<br>
     SAE Aero Design Competition<br>
     This contest intends to provide a real life challenge to engineering students by exposing them to situations faced in a professional environment. It is annually conducted in the USA, attracting 75 competition teams from renowned universities across the globe. It is a platform for young minds to display their innovation and exchange ideas. Amidst these creative creations, we aim to compete by building something a class apart.
-  </p>
+    </p>
     </div></div>
 
     <div class="container">
@@ -518,8 +516,6 @@ myvid.addEventListener('ended', function(e) {
     </div>
     </div>
 <br><br>
-
-
   <br><br><br>
     </section>
 
@@ -539,7 +535,7 @@ myvid.addEventListener('ended', function(e) {
       });
     </script>
 
-        <div class="air1 a1 hide"><center><h3 class="a1">Accolades</h3></center></div>
+        <div class="air1 a1 hide"><center><h3 class="a1"><b>Accolades</b></h3></center></div>
           <hr style="width: 5%; color:#98878F;">
           <br>
            <div class="container">
@@ -594,7 +590,7 @@ myvid.addEventListener('ended', function(e) {
           <div class="col s12 m6 l6">
 
                 <p style="margin-top: 100px;">
-The team had its first breakthrough by securing a rank of 17th in the world, in its debut year, against the likes of top universities, in SAE Aero Design West competition, held in Florida.</p>
+          The team had its first breakthrough by securing a rank of 17th in the world, in its debut year, against the likes of top universities, in SAE Aero Design West competition, held in Florida.</p>
             
           </div>
           <div class="çol s12 m1 l1"></div>
@@ -611,11 +607,11 @@ The team had its first breakthrough by securing a rank of 17th in the world, in 
 
 <!--Workshop-->
 
-<div style="background-color: #bdbdbd ">
+<div style="background-image: url(assets/images/work.JPG); background-attachment: fixed; background-repeat: no-repeat; background-size: cover;">
 <section class="main" id="Workshop">
-
+<div style="background-color: rgba(0,0,0,0.3);">
 <br><br><br>
-  <div class="Work1 w1"><center><h3 class="a1">Aero-Modelling Workshop</h3></center></div>
+  <div class="Work1 w1"><center><h3 class="a1"><b>Aero-Modelling Workshop</b></h3></center></div>
   <hr style="width:5%; color: #98878F;">
   <br>
     <div class="container work2">
@@ -628,12 +624,12 @@ The team had its first breakthrough by securing a rank of 17th in the world, in 
       <div class="col s12 m1 l1">
       </div>
       <div class="col s12 m6 l6">
-        <p style="font-size: 18px;">Our goal at DJS Skylark is not only to achieve perfection ourselves but to inspire learners driven with curiosity and determination. We achieve this goal by pouring our knowledge into the minds of keen students and assist them to create their own invention. DJS Skylark annually conducts an Aero Modelling workshop in DJSCE for undergraduate students.</p>
+        <p class="black-text" style="font-size: 18px;">Our goal at DJS Skylark is not only to achieve perfection ourselves but to inspire learners driven with curiosity and determination. We achieve this goal by pouring our knowledge into the minds of keen students and assist them to create their own invention. DJS Skylark annually conducts an Aero Modelling workshop in DJSCE for undergraduate students.</p>
       </div>
     </div>
     <div class="row center w2">
       <div class="col s12 m6 l6">
-        <p style="font-size: 18px;">We organise a large scale 3-Day annual (200+ Students ) workshop for young aero enthusiasts in the city. The three day workshop provides an opportunity to learn about:<br> <div style="text-align: left;font-size: 18px;"><span style="color:#006064"><b>Technical aspects</b></span> of fabricating an RC aircraft and the designing and analysis behind it.<br><span style="color:#006064"><b>Manufacturing</b></span> process involved.<br><span style="color:#006064"><b>Flight testing</b></span> their own aircrafts to assess their performance.</div></p>
+        <p class="black-text" style="font-size: 18px;">We organise a large scale 3-Day annual (200+ Students ) workshop for young aero enthusiasts in the city. The three day workshop provides an opportunity to learn about:<br> <div style="text-align: left;font-size: 18px;"><span style="color:#006064"><b>Technical aspects</b></span> of fabricating an RC aircraft and the designing and analysis behind it.<br><span style="color:#006064"><b>Manufacturing</b></span> process involved.<br><span style="color:#006064"><b>Flight testing</b></span> their own aircrafts to assess their performance.</div></p>
       </div>
       <div class="col s12 m1 l1">
       </div>
@@ -642,8 +638,8 @@ The team had its first breakthrough by securing a rank of 17th in the world, in 
       </div>
     </div>
     </div>
-    <br><br><br>
-
+    <br><br>
+</div>
   </section>
     </div>
 <!--end of Workshop-->
@@ -652,9 +648,8 @@ The team had its first breakthrough by securing a rank of 17th in the world, in 
 <!--Exhibition-->
 
 <section id="Exhibit">
-<div class="grey">
-<br><br><br>
-<div class="Ex1"><center><h3 class="ex1 hide">Exhibition And Events</h3></center></div>
+<div class="grey"><br><br>
+<div class="Ex1"><center><h3 class="ex1 hide"><b>Exhibition And Events</b></h3></center></div>
         <hr style="width: 5%; color:#98878F;"><br>
 
   <div class="container Ex2"><p style="font-size: 18px;" class="ex2 hide">DJS Skylark believes in inspiring by setting an example. We leave no opportunity to showcase our aircraft and accolades and make our alma mater as well as our supporters proud. We display our aircraft at several events and exhibitions, including:</p> </div>
@@ -694,7 +689,7 @@ The team had its first breakthrough by securing a rank of 17th in the world, in 
 <!--End of exhibition-->
 
 <!--Mass Media-->
-<div id="Mass"><center><h3 class="m1 hide">Mass Media</h3></center></div>
+<div id="Mass"><center><h3 class="m1 hide"><b>Mass Media</b></h3></center></div>
         <hr style="width: 5%; color:#98878F;"><br>
         <div class="container"><div style="font-size: 18px;" class="m2 hide">DJS Skylark makes its presence felt in the city with the media coverage we attract due to our feats.</div></div><br><br>
           <div class="container">
@@ -720,7 +715,6 @@ The team had its first breakthrough by securing a rank of 17th in the world, in 
         }
 
         .suga-container {
-          
           padding: .2em;
           max-width: 800px;
           margin: 6em auto;
@@ -755,16 +749,16 @@ The team had its first breakthrough by securing a rank of 17th in the world, in 
     <section id="Sponsors">
     <br><br><br>
           <div class="container" style="padding-top: 10px !important;">
-           <div class="s1 car hide"> <h3 class="sp1"><center> Our Sponsors</center></h3></div>
+           <div class="s1 car hide"> <h3 class="sp1"><center><b> Our Sponsors</b></center></h3></div>
              <hr style="width: 5%; color:#98878F;">
              <div id="logos">
-              <ul>
-                <li><img src="http://placehold.it/100x100" /></li>
-                <li><img src="http://placehold.it/100x100" /></li>
-                <li><img src="http://placehold.it/100x100" /></li>
-                <li><img src="http://placehold.it/100x100" /></li>
-                <li><img src="http://placehold.it/100x100" /></li>
-                <li><img src="http://placehold.it/100x100" /></li>
+              <ul class="center">
+                <li><a href="www.google.com"><img src="assets/images/svkm.PNG" height="150px" width="150px"></a></li>
+                <li><img src="assets/images/dj.PNG" height="150px" width="150px"></li>
+                <li><img src="http://placehold.it/100x100" height="150px" width="150px"></li>
+                <li><img src="http://placehold.it/100x100" height="150px" width="150px"></li>
+                <li><img src="http://placehold.it/100x100" height="150px" width="150px"></li>
+                <li><img src="http://placehold.it/100x100" height="150px" width="150px"></li>
               </ul>
             </div><br><br><br><br><br>
             </div>
@@ -805,150 +799,9 @@ The team had its first breakthrough by securing a rank of 17th in the world, in 
     <!--Trial Teams-->
     <div class="grey">
      <section class="main" id="Team">
-<!--<div class="grey lighten-1">-->
-<style type="text/css">
-
-  .ch-grid {
-    margin: 20px 0 0 0;
-    padding: 0;
-    list-style: none;
-    display: block;
-    text-align: center;
-    width: 100%;
-  }
-
-        .ch-grid:after,
-        .ch-item:before {
-          content: '';
-            display: table;
-        }
-
-        .ch-grid:after {
-          clear: both;
-        }
-
-        .ch-grid li {
-          width: 220px;
-          height: 220px;
-          display: inline-block;
-          margin: 20px;
-        }
-
-        .ch-item {
-          width: 100%;
-          height: 100%;
-          border-radius: 50%;
-          overflow: hidden;
-          position: relative;
-          cursor: default;
-          box-shadow:
-            inset 0 0 0 16px rgba(255,255,255,0.6),
-            0 1px 2px rgba(0,0,0,0.1);
-          transition: all 0.4s ease-in-out;
-        }
-
-        /*The description element will be positioned absolutely
-        and we’ll give it a semi-transparent background by setting an RGBA value. It’s opacity is going to be 0 and we’ll scale it down to 0, too:*/
-
-        .ch-info {
-          position: absolute;
-          background: rgba(0,0,0,0.8); /*changed*/
-          width: inherit;
-          height: inherit;
-          border-radius: 50%;
-          overflow: hidden;
-          opacity: 0;
-          transition: all 0.4s ease-in-out;
-          transform: scale(0);
-        }
-
-
-        .ch-info h3 {
-          color: #fff;
-          text-transform: uppercase;
-          letter-spacing: 2px;
-          font-size: 22px;
-          margin: 0 30px;
-          padding: 45px 0 0 0;
-          height: 140px;
-          font-family: 'Open Sans', Arial, sans-serif;
-          text-shadow:
-            0 0 1px #fff,
-            0 1px 2px rgba(0,0,0,0.3);
-        }
-
-        /*The paragraph element has 0 opacity and a transition (we want to fade it in on hover but with a delay):
-        */
-
-        .ch-info p {
-          color: #fff;
-          padding: 10px 5px;
-          font-style: italic;
-          margin: 0 30px;
-          font-size: 12px;
-          border-top: 1px solid rgba(255,255,255,0.5);
-          opacity: 0;
-          transition: all 1s ease-in-out 0.4s;
-        }
-
-        .ch-info p a:hover {
-          color: rgba(255,242,34, 0.8);
-        }
-
-        /*nimation*/
-        .ch-item:hover {
-          box-shadow:
-            inset 0 0 0 1px rgba(255,255,255,0.1),
-            0 1px 2px rgba(0,0,0,0.1);
-        }
-
-        /*fadeIn*/
-
-        .ch-item:hover .ch-info {
-          transform: scale(1);
-          opacity: 1;
-        }
-
-        .ch-item:hover .ch-info p {
-          opacity: 1;
-        }
-
-        .main{
-          width: 90%;
-          margin: 0 auto;
-          position: relative;
-        }
-
-        .ch-img-1 {
-          background-image: url(assets/1.jpg);
-        }
-
-        .ch-img-2 {
-          background-image: url(assets/2.jpg);
-        }
-
-        .ch-img-3 {
-          background-image: url(assets/3.jpg);
-        }
-
-        .ch-info p{
-          font-size: 30px;
-        }
-
-        .ch-info h3{
-          padding-top: 75px;
-          font-size: 30px;
-        }
-
-        .ch-info i:hover{
-          color: black;
-        }
-
-</style>
+<!--<div class="grey lighten-1">--> 
 <br><br>
-
-
-           <div class="Team"><center><h3 class="t1">The Team</h3></center>
+           <div class="Team"><center><h3 class="t1"><b>The Team</b></h3></center>
              <hr style="width: 5%; color:#98878F;"><br><br>
             <div class="container team1 t2">
             <img src="assets/images/desk.jpg" height="100%" width="100%">
