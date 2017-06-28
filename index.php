@@ -74,6 +74,10 @@
         display: inline;
       }
 
+      i:hover{
+        color: black;
+      }
+
 
 
 
@@ -743,25 +747,12 @@ myvid.addEventListener('ended', function(e) {
              <hr style="width: 5%; color:#98878F;">
              <div id="logos">
               <ul class="center">
-                <li><a href="www.google.com"><img src="assets/images/svkm.PNG" height="150px" width="150px"></a></li>
-                <li><img src="assets/images/dj.PNG" height="150px" width="150px"></li>
-                <li><img src="assets/images/sw1.jpg" height="150px" width="150px"></li>
-                <!--<li><img src="http://placehold.it/100x100" height="150px" width="150px"></li>
-                <li><img src="http://placehold.it/100x100" height="150px" width="150px"></li>
-                <li><img src="http://placehold.it/100x100" height="150px" width="150px"></li>-->
-              </ul>
-            </div><br><br><br><br><br>
-            </div>
-
-       <!--<div class="carousel car hide">
-            <?php
-                //$dir = "assets/images";
-                //$files = scandir($dir);
-                // Count number of files and store them to variable..
-               // $num_files = count($files)-2;
-                //$c=1;
-
-                /*if (is_dir($dir))
+              <!--<?php
+             /*$dir = "assets/sponsors";
+             $files =scandir($dir);
+             $num_files =count($files)-2;
+             $c=1;
+             if (is_dir($dir))
                 {
                      if ($dh = opendir($dir))
                      {
@@ -770,15 +761,23 @@ myvid.addEventListener('ended', function(e) {
                          if ($file == '.' OR $file == '..') {
                             continue;
                          }
-                         echo "<a class='carousel-item'><img src='".$dir,"/".$file."'></a>";
+                         echo "<li><img src='".$dir,"/".$file."'></li>";
                        }
                        closedir($dh);
                      }
 
-                 }*/
+                 }
+             */?>-->
+                <li><img src="assets/sponsors/svkm.PNG" height="150px" width="150px"></li>
+                <li><img src="assets/sponsors/dj.PNG" height="150px" width="150px"></li>
+                <li><img src="assets/sponsors/sw1.jpg" height="150px" width="150px"></li>
+                <li><img src="assets/sponsors/scc.jpg" height="150px" width="150px"></li>
+                <li><img src="assets/sponsors/vish.jpg" height="150px" width="150px"></li>
+                <li><img src="assets/sponsors/sar.jpg" height="150px" width="150px"></li>
+              </ul>
+            </div><br><br><br><br><br>
+            </div>
 
-            ?>
-          </div>-->
     </section>
           </div>
     <!-- End Sponsors -->
@@ -793,7 +792,7 @@ myvid.addEventListener('ended', function(e) {
            <div class="Team"><center><h3 class="t1 white-text"><b>The Team</b></h3></center>
              <hr style="width: 5%; color:#98878F;"><br><br>
             <div class="container team1 t2">
-            <img src="assets/images/desk.jpg" height="100%" width="100%">
+            <img src="assets/images/team1.jpg" height="100%" width="100%">
             </div>
             <br><br>
              <div>
@@ -812,36 +811,35 @@ myvid.addEventListener('ended', function(e) {
             <div class="card-content">
               <span class="card-title center">Send Us a Message</span>
               <div class="row">
-                 <form class="col s12">
+                 <form class="col s12" method="post" action="index.php">
                    <div class="row">
                      <div class="input-field col s6">
                        <i class="material-icons prefix">account_circle</i>
-                       <input id="name" type="text" class="validate">
-                       <label for="name" class="black-text">First Name</label>
+                       <input id="name" type="text" class="validate" name="sender">
+                       <label for="name" class="black-text">Name</label>
                      </div>
                      <div class="input-field col s6">
                        <i class="material-icons prefix">mail</i>
-                       <input id="email" type="email" class="validate">
+                       <input id="email" type="email" class="validate" name="Semail">
                        <label for="email" class="black-text">Email</label>
                      </div>
                    </div>
                    <div class="row">
                      <div class="input-field col s12">
                        <i class="material-icons prefix">font_download</i>
-                       <input id="subject" type="text" class="validate">
+                       <input id="subject" type="text" class="validate" name="sub">
                        <label for="subject" class="black-text">Subject</label>
                      </div>
                    </div>
                    <div class="row">
                     <div class="input-field col s12">
                       <i class="material-icons prefix">mode_edit</i>
-                      <textarea id="msg" class="materialize-textarea"></textarea>
+                      <textarea id="msg" class="materialize-textarea" name="message"></textarea>
                       <label for="msg" class="black-text">Message</label>
                     </div>
                   </div>
                   <div class="row">
-                  		<button class="btn waves-effect waves-light right blue-grey darken-3" type="submit" name="action">Submit<i class="material-icons right">send</i>
-  						</button>
+                  		<input class="btn waves-effect waves-light right blue-grey darken-3" type="submit" name="submit">
                   </div>
                  </form>
                </div>
@@ -868,6 +866,23 @@ myvid.addEventListener('ended', function(e) {
             </div>
           </div>
           </section>
+
+         <!-- <?php
+
+          /*if($_POST["submit"]){
+          	$recipient="akshita.lakkad@gmail.com";
+          	$subject=$_POST["sub"];
+          	$sender=$_POST["sender"];
+          	$senderemail=$_POST["Semail"];
+          	$message=$_POST["message"];
+
+          	$mailBody="Name:$sender\nEmail:$senderemail\n\n$message";
+
+          	mail($recipient,$subject,$mailBody,"From:$sender<$senderemail>");
+          }
+          */
+		?>-->
+
     <!-- End Contact -->
 
     <!--Top Button-->
